@@ -19,6 +19,7 @@
   },
   "url": "https://github.com/LegoFed3/13a-theurge/tree/main",
   "manifest": "https://raw.githubusercontent.com/LegoFed3/13a-theurge/main/module.json",
+  "download": "https://github.com/LegoFed3/13a-theurge/archive/refs/tags/1.0.0.zip",
   "scripts": [
     "scripts/setup.js"
   ],
