@@ -20,6 +20,9 @@
   },
   "url": "https://gitlab.com/todo",
   "download": "https://gitlab.com/todo",
+  "scripts": [
+    "scripts/setup.js"
+  ],
   "packs": [
     {
       "name": "theurge",
