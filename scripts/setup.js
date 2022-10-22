@@ -2,10 +2,10 @@
 Hooks.on("ready", function() {
   console.log("Theurge (13th Age) class injecting data into the system...");
 
-  // Add new class name to classList
+  // Add new class name to classList - this enable class recognition.
   CONFIG.ARCHMAGE.classList["theurge"] = "Theurge";
 
-  // Add class stats to classes - this enables base stats autoconfiguration
+  // Add class stats to classes - this enables base stats autoconfiguration.
   CONFIG.ARCHMAGE.classes["theurge"] = {
     hp: 6,
     ac_lgt: 11,
@@ -47,6 +47,9 @@ Hooks.on("ready", function() {
   CONFIG.ARCHMAGE.keyModifiers['theurge'] = {
     'wizard': ['int', 'cha'],
   };
-  console.log(CONFIG.ARCHMAGE);
+
+  // Add class description pack - adds descriptions to power importer
+  CONFIG.ARCHMAGE.classPacks.push("classes-theurge");
+
   console.log("Theurge (13th Age) class loaded succesfully." );
 });

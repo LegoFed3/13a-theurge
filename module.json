@@ -25,6 +25,13 @@
   ],
   "packs": [
     {
+      "label": "Classes-Theurge",
+      "type": "JournalEntry",
+      "name": "classes-theurge",
+      "path": "packs/classes-theurge.db",
+      "system": "archmage"
+    },
+    {
       "name": "theurge",
       "label": "Theurge",
       "system": "archmage",
