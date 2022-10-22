@@ -17,8 +17,8 @@
       }
     }]
   },
-  "url": "https://github.com/LegoFed3/13a-theurge",
-  "download": "https://raw.githubusercontent.com/LegoFed3/13a-theurge/main/module.json",
+  "url": "https://github.com/LegoFed3/13a-theurge/tree/main",
+  "manifest": "https://raw.githubusercontent.com/LegoFed3/13a-theurge/main/module.json",
   "scripts": [
     "scripts/setup.js"
   ],
