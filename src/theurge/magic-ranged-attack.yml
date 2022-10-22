@@ -82,7 +82,7 @@ system:
     type: String
     label: Hit
     value: >-
-      [[(@lvl)@d8+max(@int.dmg, @wis.dmg, @cha.dmg)+max(@atk.a.bonus,
+      [[(@lvl)d8+max(@int.dmg, @wis.dmg, @cha.dmg)+max(@atk.a.bonus,
       @atk.d.bonus)]] CHOOSE ELEMENT damage
   hitEven:
     type: String
