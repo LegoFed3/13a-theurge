@@ -1,0 +1,213 @@
+name: Touch of Healing
+type: power
+img: systems/archmage/assets/icons/skills/weapon_27.jpg
+system:
+  name:
+    type: String
+    label: Name
+  description:
+    type: String
+    label: Description
+  powerUsage:
+    type: String
+    label: Power Usage
+    value: once-per-battle
+  recharge:
+    type: Number
+    label: Recharge
+    value: 0
+  rechargeAttempts:
+    type: Number
+    label: Number of Recharges Attempted
+    value: 0
+  quantity:
+    type: Number
+    label: Uses
+    value: 2
+  maxQuantity:
+    type: Number
+    label: Max Uses
+    value: 2
+  group:
+    type: String
+    label: Group
+    value: ''
+  powerSource:
+    type: String
+    label: Power Source
+    value: class
+  powerSourceName:
+    type: String
+    label: Power Source Name
+    value: Theurge
+  powerOriginName:
+    type: String
+    label: Power Original Name
+    value: Touch of Healing
+  powerType:
+    type: String
+    label: Power Type
+    value: talent
+  powerLevel:
+    type: Number
+    label: Level
+    value: 1
+  actionType:
+    type: String
+    label: Action
+    value: quick
+  range:
+    type: String
+    label: Range
+    value: ''
+  trigger:
+    type: String
+    label: Trigger
+    value: ''
+  target:
+    type: String
+    label: Target
+    value: ''
+  always:
+    type: String
+    label: Always
+    value: ''
+  attack:
+    type: String
+    label: Attack
+    value: ''
+  hit:
+    type: String
+    label: Hit
+    value: ''
+  hitEven:
+    type: String
+    label: Natural Even Hit
+    value: ''
+  hitOdd:
+    type: String
+    label: Natural Odd Hit
+    value: ''
+  crit:
+    type: String
+    label: Crit
+    value: ''
+  miss:
+    type: String
+    label: Miss
+    value: ''
+  missEven:
+    type: String
+    label: Even Miss
+    value: ''
+  missOdd:
+    type: String
+    label: Odd Miss
+    value: ''
+  cost:
+    type: String
+    label: Cost
+    value: ''
+  castBroadEffect:
+    type: String
+    label: Cast for Broad Effect
+    value: ''
+  castPower:
+    type: String
+    label: Cast for Power
+    value: ''
+  sustainedEffect:
+    type: String
+    label: Opening and Sustained Effect
+    value: ''
+  finalVerse:
+    type: String
+    label: Final Verse
+    value: ''
+  special:
+    type: String
+    label: Special
+    value: ''
+  effect:
+    type: String
+    label: Effect
+    value: >-
+      <p>Twice per battle as a quick action, you can let yourself or a
+      nearby ally heal by spending a recovery. You can only use this talent once
+      per round.</p>
+  spellLevel3:
+    type: String
+    label: 3rd Level Spell
+    value: ''
+  spellLevel5:
+    type: String
+    label: 5th Level Spell
+    value: ''
+  spellLevel7:
+    type: String
+    label: 7th Level Spell
+    value: ''
+  spellLevel9:
+    type: String
+    label: 9th Level Spell
+    value: ''
+  spellChain:
+    type: String
+    label: Chain Spell
+    value: ''
+  breathWeapon:
+    type: String
+    label: Breath Weapon
+    value: ''
+  sustainOn:
+    type: Number
+    label: Sustain On
+    value: null
+  feats:
+    adventurer:
+      description:
+        type: String
+        label: Adventurer Feat
+        value: >-
+          <p>Add [[@wis.dmg]] to the healing provided by the
+          recovery.</p>
+      isActive:
+        type: Boolean
+        label: Active
+        value: false
+    champion:
+      description:
+        type: String
+        label: Champion Feat
+        value: >-
+          <p>You can use this talent three times per battle.</p>
+      isActive:
+        type: Boolean
+        label: Active
+        value: false
+    epic:
+      description:
+        type: String
+        label: Epic Feat
+        value: >-
+          <p>Once per
+          day maximize the healing provided by the recovery (don&rsquo;t even
+          roll it, assume all dice ended up on their maximum possible
+          value).</p>
+      isActive:
+        type: Boolean
+        label: Active
+        value: false
+  embeddedMacro:
+    type: String
+    label: Embedded Macro
+    value: ''
+effects: []
+flags: {}
+folder: null
+sort: 0
+ownership:
+  default: 0
+_id: yiXqeGkJA7Ldubim
+permission:
+  default: 0

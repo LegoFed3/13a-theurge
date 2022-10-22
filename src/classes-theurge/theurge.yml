@@ -1,0 +1,49 @@
+name: Theurge
+flags: {}
+pages:
+  - name: 'Figure: Theurge'
+    type: image
+    src: systems/archmage/assets/icons/spells/runes-blue-1.jpg
+    title:
+      show: false
+      level: 1
+    _id: ca5L0hiFRwD6oSch
+    image:
+      caption: ''
+    text:
+      format: 1
+    video:
+      controls: true
+      volume: 0.5
+    system: {}
+    sort: 0
+    ownership:
+      default: -1
+    flags: {}
+  - name: Theurge
+    type: text
+    title:
+      show: false
+      level: 1
+    text:
+      format: 1
+      content: "<div class=\"l-center\"><h1 class=\"archmage-class-title\">Theurge</h1><div class=\"grid grid-2col\"><div class=\"details\"><h2 class=\"archmage-class-heading\">Ability Scores</h2><p>Theurges gain a +2 class bonus to Intelligence, Wisdom or Charisma, as long as it isn’t the same ability you increase with your +2 racial bonus.</p><h2 class=\"archmage-class-heading\">Backgrounds</h2><p>Possible backgrounds include: wandering miracle worker, hedge wizard, student of high magic, hierophant, village healer, fallen god of all magic, tribal shaman.</p><h2 class=\"archmage-class-heading\">Gear</h2><p><span style=\"font-family:Signika, sans-serif\">At 1st level, a theurge usually has a simple melee weapon, a few changes of clothing, a wand or staff, and other paraphernalia suggested by their backgrounds.</span></p><h3 class=\"archmage-class-subheading\">Gold Pieces</h3><p>Theurges may start with either 25 gp or 1d6 x 10 gp.</p></div><div class=\"armor\"><h2 class=\"archmage-class-heading\">Armor</h2><table><tbody><tr><td><p><strong>Armor Type</strong></p></td><td><p><strong>Base AC</strong></p></td><td><p><strong>Atk Penalty</strong></p></td></tr><tr><td><p><strong>None</strong></p></td><td><p>11</p></td><td><p>—</p></td></tr><tr><td><p><em><strong>Light</strong></em></p></td><td><p><em>13</em></p></td><td><p>–2</p></td></tr><tr><td><p><strong>Heavy</strong></p></td><td><p>14</p></td><td><p>–3</p></td></tr><tr><td><p><strong>Shield</strong></p></td><td><p>+1</p></td><td><p>–1</p></td></tr></tbody></table></div></div><div class=\"grid grid-2col\"><div class=\"melee-weapons\"><h2 class=\"archmage-class-heading\">Melee Weapons</h2><table><tbody><tr><td><p>\_</p></td><td><p><strong>One-Handed</strong></p></td><td><p><strong>Two-Handed</strong></p></td></tr><tr><td><p><strong>Small</strong></p></td><td><p>1d4 dagger, rod, <em>magic</em></p></td><td><p>1d6 club, staff</p></td></tr><tr><td><p><strong>Light or Simple</strong></p></td><td><p>1d6 (-2 atk) hand-axe, rapier</p></td><td><p>1d8 (-2 atk) spear</p></td></tr><tr><td><p><strong>Heavy or Martial</strong></p></td><td><p>1d8 (-3 atk) longsword</p></td><td><p>1d10 (-4 atk) greatsword, greataxe</p></td></tr></tbody></table></div><div class=\"ranged-weapons\"><h2 class=\"archmage-class-heading\">Ranged Weapons</h2><table><tbody><tr><td><p>\_</p></td><td><p><strong>Thrown</strong></p></td><td><p><strong>Crossbow</strong></p></td><td><p><strong>Bow</strong></p></td></tr><tr><td><p><strong>Small</strong></p></td><td><p>1d4 dagger</p></td><td><p>1d4 (–2 atk) hand crossbow</p></td><td><p>—</p></td></tr><tr><td><p><strong>Light or Simple</strong></p></td><td><p>1d6 (-2 atk) javelin, axe</p></td><td><p>1d6 (–2 atk) light crossbow</p></td><td><p>1d6 (-2 atk) shortbow</p></td></tr><tr><td><p><strong>Heavy or Martial</strong></p></td><td><p>1d8 <em>magic</em></p></td><td><p>1d8 (–3 atk) heavy crossbow</p></td><td><p>1d8 (-3 atk)longbow</p></td></tr></tbody></table></div></div></div><h2 class=\"archmage-class-heading\">Level Progression</h2><table><thead><tr><th>Theurge Level</th><th>Total Hit Points</th><th>Total Feats</th><th>Class Talents (M)</th><th>Level-up Ability Bonuses</th><th>Damage Bonus from Ability Score</th></tr></thead><tbody><tr><th>Level 1 Multiclass</th><td>(Avg. of both classes) x <strong>3</strong></td><td>As 1st level PC</td><td>1 or 2 (3 total)</td><td>Not affected</td><td>ability modifier</td></tr><tr><th>Level 1</th><td>(6 + CON mod) x <strong>3</strong></td><td>1 adventurer</td><td>3 adventurer</td><td>\_</td><td>ability modifier</td></tr><tr><th>Level 2</th><td>(6 + CON mod) x <strong>4</strong></td><td>2 adventurer</td><td>3 adventurer</td><td>\_</td><td>ability modifier</td></tr><tr><th>Level 3</th><td>(6 + CON mod) x <strong>5</strong></td><td>3 adventurer</td><td>3 adventurer</td><td>\_</td><td>ability modifier</td></tr><tr><th>Level 4</th><td>(6 + CON mod) x <strong>6</strong></td><td>4 adventurer</td><td>3 adventurer</td><td>+1 to 3 abilities</td><td>ability modifier</td></tr><tr><th>Level 5</th><td>(6 + CON mod) x <strong>8</strong></td><td><p>4 adventurer</p><p>1 champion</p></td><td><p>3 adventurer</p><p>1 champion</p></td><td>\_</td><td>2 x ability modifier</td></tr><tr><th>Level 6</th><td>(6 + CON mod) x <strong>10</strong></td><td><p>4 adventurer</p><p>2 champion</p></td><td><p>3 adventurer</p><p>1 champion</p></td><td>\_</td><td>2 x ability modifier</td></tr><tr><th>Level 7</th><td>(6 + CON mod) x <strong>12</strong></td><td><p>4 adventurer</p><p>3 champion</p></td><td><p>3 adventurer</p><p>1 champion</p></td><td>+1 to 3 abilities</td><td>2 x ability modifier</td></tr><tr><th>Level 8</th><td>(6 + CON mod) x <strong>16</strong></td><td><p>4 adventurer</p><p>3 champion</p><p>1 epic</p></td><td><p>3 adventurer</p><p>1 champion</p><p>1 epic</p></td><td>\_</td><td>3 x ability modifier</td></tr><tr><th>Level 9</th><td>(6 + CON mod) x <strong>20</strong></td><td><p>4 adventurer</p><p>3 champion</p><p>2 epic</p></td><td><p>3 adventurer</p><p>1 champion</p><p>1 epic</p></td><td>\_</td><td>3 x ability modifier</td></tr><tr><th>Level 10</th><td><p>(6 + CON mod) x <strong>24</strong></p><p></p></td><td><p>4 adventurer</p><p>3 champion</p><p>3 epic</p></td><td><p>3 adventurer</p><p>1 champion</p><p>1 epic</p></td><td>+1 to 3 abilities</td><td>3 x ability modifier</td></tr></tbody></table><div class=\"l-center\"><h2 class=\"archmage-class-heading\">Stats</h2><p>Initiative, AC, PD, MD, Hit Points, Recovery Dice, Feats, and some Talents are level dependent.</p><table><tbody><tr><td><p><strong>Ability Bonus</strong></p></td><td><p>+2 Intelligence, Wisdom or Charisma (different from racial bonus)</p></td></tr><tr><td><p><strong>Initiative</strong></p></td><td><p>Dex mod + Level</p></td></tr><tr><td><p><strong>Armor Class </strong>(no armor)</p></td><td><p>11 + middle mod of Con/Dex/Wis + Level</p></td></tr><tr><td><p><strong>Physical Defense</strong></p></td><td><p>11 + middle mod of Str/Con/Dex + Level</p></td></tr><tr><td><p><strong>Mental Defense</strong></p></td><td><p>11 + middle mod of Int/Wis/Cha + Level</p></td></tr><tr><td><p><strong>Hit Points</strong></p></td><td><p>(6 + Con mod) x Level modifier (see level progression chart)</p></td></tr><tr><td><p><strong>Recoveries</strong></p></td><td><p>8</p></td></tr><tr><td><p><strong>Recovery Dice</strong></p></td><td><p>(1d6 x Level) + Con mod</p></td></tr><tr><td><p><strong>Backgrounds</strong></p></td><td><p>8 points, max 5 in any one background</p></td></tr><tr><td><p><strong>Icon Relationships</strong></p></td><td><p>3 points</p></td></tr><tr><td><p><strong>Talents</strong></p></td><td><p>3 (see level progression chart)</p></td></tr><tr><td><p><strong>Feats</strong></p></td><td><p>1 per Level</p></td></tr></tbody></table></div>"
+      markdown: ''
+    _id: 1qCxY3xGcl6Hw4AX
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    system: {}
+    sort: 0
+    ownership:
+      default: -1
+    flags: {}
+folder: null
+sort: 0
+ownership:
+  default: 0
+_id: 4u3HMj1LZivwAV4q
+permission:
+  default: 0

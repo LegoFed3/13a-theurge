@@ -1,0 +1,244 @@
+name: Conjurer
+type: power
+img: systems/archmage/assets/icons/skills/weapon_27.jpg
+system:
+  name:
+    type: String
+    label: Name
+  description:
+    type: String
+    label: Description
+  powerUsage:
+    type: String
+    label: Power Usage
+    value: at-will
+  recharge:
+    type: Number
+    label: Recharge
+    value: 0
+  rechargeAttempts:
+    type: Number
+    label: Number of Recharges Attempted
+    value: 0
+  quantity:
+    type: Number
+    label: Uses
+    value: null
+  maxQuantity:
+    type: Number
+    label: Max Uses
+    value: null
+  group:
+    type: String
+    label: Group
+    value: ''
+  powerSource:
+    type: String
+    label: Power Source
+    value: class
+  powerSourceName:
+    type: String
+    label: Power Source Name
+    value: Theurge
+  powerOriginName:
+    type: String
+    label: Power Original Name
+    value: Conjurer
+  powerType:
+    type: String
+    label: Power Type
+    value: talent
+  powerLevel:
+    type: Number
+    label: Level
+    value: 1
+  actionType:
+    type: String
+    label: Action
+    value: standard
+  range:
+    type: String
+    label: Range
+    value: ''
+  trigger:
+    type: String
+    label: Trigger
+    value: ''
+  target:
+    type: String
+    label: Target
+    value: ''
+  always:
+    type: String
+    label: Always
+    value: ''
+  attack:
+    type: String
+    label: Attack
+    value: ''
+  hit:
+    type: String
+    label: Hit
+    value: ''
+  hitEven:
+    type: String
+    label: Natural Even Hit
+    value: ''
+  hitOdd:
+    type: String
+    label: Natural Odd Hit
+    value: ''
+  crit:
+    type: String
+    label: Crit
+    value: ''
+  miss:
+    type: String
+    label: Miss
+    value: ''
+  missEven:
+    type: String
+    label: Even Miss
+    value: ''
+  missOdd:
+    type: String
+    label: Odd Miss
+    value: ''
+  cost:
+    type: String
+    label: Cost
+    value: ''
+  castBroadEffect:
+    type: String
+    label: Cast for Broad Effect
+    value: ''
+  castPower:
+    type: String
+    label: Cast for Power
+    value: ''
+  sustainedEffect:
+    type: String
+    label: Opening and Sustained Effect
+    value: ''
+  finalVerse:
+    type: String
+    label: Final Verse
+    value: ''
+  special:
+    type: String
+    label: Special
+    value: ''
+  effect:
+    type: String
+    label: Effect
+    value: >-
+      <p>You can use a standard action to summon a spirit or elemental
+      next to you instead of attacking. This action provokes opportunity attacks
+      and can&rsquo;t be used while hampered, like a ranged spell would.
+      Describe your summon in any way that makes sense for your particular
+      character. You can only have one such summon active at a time. The summon
+      dissipates harmlessly after it attacks, if it is hit by an attack or at
+      the end of the battle, whichever comes first.&nbsp;&nbsp;</p>
+
+      <p>The summon counts as your ally, but can&rsquo;t be healed. It
+      uses your actions, and generally moves alongside you to stay next to its
+      conjurer if you move. As a quick action you might be able to order the
+      spirit to move and attempt to accomplish something other than attacking,
+      but it probably requires a skill check to do so. If it is attacked, it
+      uses your defenses, and is destroyed in a single hit (it still took one
+      for the team, so it wasn&rsquo;t completely useless).&nbsp;</p>
+
+      <p>As an interrupt action, you can have your summon intercept a
+      foe moving to engage you, stopping its movement before attacking it with
+      your most damaging magic attack (it doesn&rsquo;t provoke opportunity
+      attacks with it, it just dissipates after attacking). Alternatively, as a
+      quick action on your turn you can have your summon attack a nearby enemy
+      instead. You can apply your other talents to the summon&rsquo;s attack, as
+      if you were attacking yourself.</p>
+
+      <p>This talent is mainly useful to keep foes off you, but can
+      sometimes burn a turn where otherwise you would not be able to attack. Oh,
+      and conjuring your summon outside of battle to e.g. have it
+      &ldquo;scout&rdquo; a corridor full of traps costs you a recovery
+      (don&rsquo;t complain, you still get to trigger the traps from a safe
+      distance). You can conjure it for free amidst the adrenaline rush of
+      battle, but it is not meant to let you trivialize exploration.</p>
+  spellLevel3:
+    type: String
+    label: 3rd Level Spell
+    value: ''
+  spellLevel5:
+    type: String
+    label: 5th Level Spell
+    value: ''
+  spellLevel7:
+    type: String
+    label: 7th Level Spell
+    value: ''
+  spellLevel9:
+    type: String
+    label: 9th Level Spell
+    value: ''
+  spellChain:
+    type: String
+    label: Chain Spell
+    value: ''
+  breathWeapon:
+    type: String
+    label: Breath Weapon
+    value: ''
+  sustainOn:
+    type: Number
+    label: Sustain On
+    value: null
+  feats:
+    adventurer:
+      description:
+        type: String
+        label: Adventurer Feat
+        value: >-
+          <p>When your
+          summon is destroyed (whether because it attacked or was hit) it deals
+          your highest modifier damage of a type that makes sense for it to its
+          attacker or target.</p>
+      isActive:
+        type: Boolean
+        label: Active
+        value: false
+    champion:
+      description:
+        type: String
+        label: Champion Feat
+        value: >-
+          <p>Once per
+          battle, when your summon hits a target with a natural even hit it can
+          either make it *stuck* (save ends) or deal [[max(@int.dmg, @wis.dmg,
+          @cha.dmg)]] ongoing damage to it.</p>
+      isActive:
+        type: Boolean
+        label: Active
+        value: false
+    epic:
+      description:
+        type: String
+        label: Epic Feat
+        value: >-
+          <p>Once per
+          battle your summon can reroll its attack.</p>
+      isActive:
+        type: Boolean
+        label: Active
+        value: false
+  embeddedMacro:
+    type: String
+    label: Embedded Macro
+    value: ''
+effects: []
+flags: {}
+folder: null
+sort: 0
+ownership:
+  default: 0
+_id: mNj9b5w7H85yFIRt
+permission:
+  default: 0
