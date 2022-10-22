@@ -12,14 +12,13 @@
     "systems": [{
       "id": "archmage",
       "type": "system",
-      "manifest": "https://gitlab.com/asacolips-projects/foundry-mods/archmage/-/raw/1.5.0/system.json",
       "compatibility": {
         "verified": "1.23.0"
       }
     }]
   },
   "url": "https://github.com/LegoFed3/13a-theurge",
-  "download": "https://github.com/LegoFed3/13a-theurge/blob/main/module.json",
+  "download": "https://raw.githubusercontent.com/LegoFed3/13a-theurge/main/module.json",
   "scripts": [
     "scripts/setup.js"
   ],
