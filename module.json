@@ -18,8 +18,8 @@
       }
     }]
   },
-  "url": "https://gitlab.com/todo",
-  "download": "https://gitlab.com/todo",
+  "url": "https://github.com/LegoFed3/13a-theurge",
+  "download": "https://github.com/LegoFed3/13a-theurge/blob/main/module.json",
   "scripts": [
     "scripts/setup.js"
   ],
