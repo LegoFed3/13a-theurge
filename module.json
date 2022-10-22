@@ -1,0 +1,32 @@
+{
+  "id": "13a-theurge",
+  "title": "Theurge (13th Age)",
+  "description": "A simple module adding the community-adapted Theurge class for the 13th Age system",
+  "authors": [{"name": "Federico Pederzolli"}],
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "10",
+    "verified": "10"
+  },
+  "relationships": {
+    "systems": [{
+      "id": "archmage",
+      "type": "system",
+      "manifest": "https://gitlab.com/asacolips-projects/foundry-mods/archmage/-/raw/1.5.0/system.json",
+      "compatibility": {
+        "verified": "1.23.0"
+      }
+    }]
+  },
+  "url": "https://gitlab.com/todo",
+  "download": "https://gitlab.com/todo",
+  "packs": [
+    {
+      "name": "theurge",
+      "label": "Theurge",
+      "system": "archmage",
+      "path": "./packs/theurge.db",
+      "type": "Item"
+    }
+  ]
+}
