@@ -3,7 +3,7 @@
   "title": "Theurge (13th Age)",
   "description": "A simple module adding the community-adapted Theurge class for the 13th Age system",
   "authors": [{"name": "Federico Pederzolli"}],
-  "version": "1.0.0",
+  "version": "1.0.1",
   "compatibility": {
     "minimum": "10",
     "verified": "10"
@@ -20,7 +20,7 @@
   },
   "url": "https://github.com/LegoFed3/13a-theurge/tree/main",
   "manifest": "https://raw.githubusercontent.com/LegoFed3/13a-theurge/main/module.json",
-  "download": "https://github.com/LegoFed3/13a-theurge/archive/refs/tags/1.0.0.zip",
+  "download": "https://github.com/LegoFed3/13a-theurge/archive/refs/tags/1.0.1.zip",
   "scripts": [
     "scripts/setup.js"
   ],
