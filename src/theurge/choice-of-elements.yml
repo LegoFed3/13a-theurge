@@ -132,10 +132,10 @@ system:
     type: String
     label: Effect
     value: >-
-      <p>Choose two types of damage for your attacks: acid, cold, fire,
-      force, holy, lightning, negative energy, poison, psychic and thunder. You
-      can deal damage of either of these types with your magic basic attacks,
-      which normally target PD. Psychic is a little special: your basic attacks
+      <p>Choose two types of damage for your attacks: acid, cold, fire, force,
+      holy, lightning, negative energy, poison, psychic and thunder. You can
+      deal damage of either of these types with your magic basic attacks, which
+      normally target PD. Psychic is a little special: your basic attacks
       dealing psychic damage target MD instead of PD, but also deal slightly
       less damage: you do not add any ability score modifier to damage when
       attacking MD. This is to account for the fact that MD is usually the
@@ -177,11 +177,11 @@ system:
         type: String
         label: Adventurer Feat
         value: >-
-          <p>you can pick a number of additional types from the list
-          equal to your level, up to the entire list (and yes, when you next
-          advance in level after picking this feat you can make a new choice,
-          and so on). Feel free to roll randomly to determine the damage type of
-          your attacks if you feel like it, but you don&rsquo;t have to.</p>
+          <p>you can pick a number of additional types from the list equal to
+          your level, up to the entire list (and yes, when you next advance in
+          level after picking this feat you can make a new choice, and so on).
+          Feel free to roll randomly to determine the damage type of your
+          attacks if you feel like it, but you don&rsquo;t have to.</p>
       isActive:
         type: Boolean
         label: Active

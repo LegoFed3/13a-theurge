@@ -132,8 +132,8 @@ system:
     type: String
     label: Effect
     value: >-
-      <p>Choose one quick action spell from the Cleric&rsquo;s list. You
-      can cast this spell at your level (or one level below) as if you were a
+      <p>Choose one quick action spell from the Cleric&rsquo;s list. You can
+      cast this spell at your level (or one level below) as if you were a
       Cleric. You can change the spell(s) you know during a full heal-up.</p>
   spellLevel3:
     type: String
@@ -168,9 +168,7 @@ system:
       description:
         type: String
         label: Adventurer Feat
-        value: >-
-          <p>Once per
-          day you can cast Turn Undead as if you were a Cleric.</p>
+        value: <p>Once per day you can cast Turn Undead as if you were a Cleric.</p>
       isActive:
         type: Boolean
         label: Active
@@ -191,8 +189,8 @@ system:
         type: String
         label: Epic Feat
         value: >-
-          <p>You gain a 3rd Cleric spell, this one at your level and
-          picked from all cleric spells.</p>
+          <p>You gain a 3rd Cleric spell, this one at your level and picked from
+          all cleric spells.</p>
       isActive:
         type: Boolean
         label: Active

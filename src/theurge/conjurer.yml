@@ -132,33 +132,33 @@ system:
     type: String
     label: Effect
     value: >-
-      <p>You can use a standard action to summon a spirit or elemental
-      next to you instead of attacking. This action provokes opportunity attacks
-      and can&rsquo;t be used while hampered, like a ranged spell would.
-      Describe your summon in any way that makes sense for your particular
-      character. You can only have one such summon active at a time. The summon
-      dissipates harmlessly after it attacks, if it is hit by an attack or at
-      the end of the battle, whichever comes first.&nbsp;&nbsp;</p>
+      <p>You can use a standard action to summon a spirit or elemental next to
+      you instead of attacking. This action provokes opportunity attacks and
+      can&rsquo;t be used while hampered, like a ranged spell would. Describe
+      your summon in any way that makes sense for your particular character. You
+      can only have one such summon active at a time. The summon dissipates
+      harmlessly after it attacks, if it is hit by an attack or at the end of
+      the battle, whichever comes first.&nbsp;&nbsp;</p>
 
-      <p>The summon counts as your ally, but can&rsquo;t be healed. It
-      uses your actions, and generally moves alongside you to stay next to its
-      conjurer if you move. As a quick action you might be able to order the
-      spirit to move and attempt to accomplish something other than attacking,
-      but it probably requires a skill check to do so. If it is attacked, it
-      uses your defenses, and is destroyed in a single hit (it still took one
-      for the team, so it wasn&rsquo;t completely useless).&nbsp;</p>
+      <p>The summon counts as your ally, but can&rsquo;t be healed. It uses your
+      actions, and generally moves alongside you to stay next to its conjurer if
+      you move. As a quick action you might be able to order the spirit to move
+      and attempt to accomplish something other than attacking, but it probably
+      requires a skill check to do so. If it is attacked, it uses your defenses,
+      and is destroyed in a single hit (it still took one for the team, so it
+      wasn&rsquo;t completely useless).&nbsp;</p>
 
-      <p>As an interrupt action, you can have your summon intercept a
-      foe moving to engage you, stopping its movement before attacking it with
-      your most damaging magic attack (it doesn&rsquo;t provoke opportunity
-      attacks with it, it just dissipates after attacking). Alternatively, as a
-      quick action on your turn you can have your summon attack a nearby enemy
-      instead. You can apply your other talents to the summon&rsquo;s attack, as
-      if you were attacking yourself.</p>
+      <p>As an interrupt action, you can have your summon intercept a foe moving
+      to engage you, stopping its movement before attacking it with your most
+      damaging magic attack (it doesn&rsquo;t provoke opportunity attacks with
+      it, it just dissipates after attacking). Alternatively, as a quick action
+      on your turn you can have your summon attack a nearby enemy instead. You
+      can apply your other talents to the summon&rsquo;s attack, as if you were
+      attacking yourself.</p>
 
-      <p>This talent is mainly useful to keep foes off you, but can
-      sometimes burn a turn where otherwise you would not be able to attack. Oh,
-      and conjuring your summon outside of battle to e.g. have it
+      <p>This talent is mainly useful to keep foes off you, but can sometimes
+      burn a turn where otherwise you would not be able to attack. Oh, and
+      conjuring your summon outside of battle to e.g. have it
       &ldquo;scout&rdquo; a corridor full of traps costs you a recovery
       (don&rsquo;t complain, you still get to trigger the traps from a safe
       distance). You can conjure it for free amidst the adrenaline rush of
@@ -197,10 +197,9 @@ system:
         type: String
         label: Adventurer Feat
         value: >-
-          <p>When your
-          summon is destroyed (whether because it attacked or was hit) it deals
-          your highest modifier damage of a type that makes sense for it to its
-          attacker or target.</p>
+          <p>When your summon is destroyed (whether because it attacked or was
+          hit) it deals your highest modifier damage of a type that makes sense
+          for it to its attacker or target.</p>
       isActive:
         type: Boolean
         label: Active
@@ -210,10 +209,9 @@ system:
         type: String
         label: Champion Feat
         value: >-
-          <p>Once per
-          battle, when your summon hits a target with a natural even hit it can
-          either make it *stuck* (save ends) or deal [[max(@int.dmg, @wis.dmg,
-          @cha.dmg)]] ongoing damage to it.</p>
+          <p>Once per battle, when your summon hits a target with a natural even
+          hit it can either make it *stuck* (save ends) or deal [[max(@int.dmg,
+          @wis.dmg, @cha.dmg)]] ongoing damage to it.</p>
       isActive:
         type: Boolean
         label: Active
@@ -222,9 +220,7 @@ system:
       description:
         type: String
         label: Epic Feat
-        value: >-
-          <p>Once per
-          battle your summon can reroll its attack.</p>
+        value: <p>Once per battle your summon can reroll its attack.</p>
       isActive:
         type: Boolean
         label: Active

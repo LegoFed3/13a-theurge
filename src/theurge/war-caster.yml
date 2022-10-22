@@ -132,9 +132,9 @@ system:
     type: String
     label: Effect
     value: >-
-      <p>Reduce the penalty for using armor (not shields) by 2, and raise
-      your AC in no armor to 13. Phrase this as actual armor or magical shields,
-      as you prefer. In addition, your basic magic melee attack damage die size
+      <p>Reduce the penalty for using armor (not shields) by 2, and raise your
+      AC in no armor to 13. Phrase this as actual armor or magical shields, as
+      you prefer. In addition, your basic magic melee attack damage die size
       increases by two stages, usually from d4 to d8, and deals your level
       damage on a miss. Phrase it as short-range magic or a big flaming weapon
       or however you like and makes sense for your character. You can also cast
@@ -176,9 +176,7 @@ system:
       description:
         type: String
         label: Adventurer Feat
-        value: >-
-          <p>Your
-          recovery dice are now d8s instead of d6s.</p>
+        value: <p>Your recovery dice are now d8s instead of d6s.</p>
       isActive:
         type: Boolean
         label: Active
@@ -187,8 +185,7 @@ system:
       description:
         type: String
         label: Champion Feat
-        value: >-
-          <p>Your base HP increases from 6 to 7.</p>
+        value: <p>Your base HP increases from 6 to 7.</p>
       isActive:
         type: Boolean
         label: Active
@@ -197,8 +194,7 @@ system:
       description:
         type: String
         label: Epic Feat
-        value: >-
-          <p>Gain a +1 bonus to all defenses.</p>
+        value: <p>Gain a +1 bonus to all defenses.</p>
       isActive:
         type: Boolean
         label: Active

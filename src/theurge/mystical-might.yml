@@ -132,10 +132,9 @@ system:
     type: String
     label: Effect
     value: >-
-      <p>A
-      number of times per battle equal to your Charisma modifier ([[@cha.mod]],
-      minimum 1), you can increase the damage die size of your magic
-      basic attacks by two (usually d8 to d12, or d4 to d8 for melee).</p>
+      <p>A number of times per battle equal to your Charisma modifier
+      ([[@cha.mod]], minimum 1), you can increase the damage die size of your
+      magic basic attacks by two (usually d8 to d12, or d4 to d8 for melee).</p>
   spellLevel3:
     type: String
     label: 3rd Level Spell
@@ -169,9 +168,7 @@ system:
       description:
         type: String
         label: Adventurer Feat
-        value: >-
-          <p>You gain
-          an extra use of this talent per battle.</p>
+        value: <p>You gain an extra use of this talent per battle.</p>
       isActive:
         type: Boolean
         label: Active

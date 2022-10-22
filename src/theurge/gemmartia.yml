@@ -132,8 +132,7 @@ system:
     type: String
     label: Effect
     value: >-
-      <p>A
-      number of times per full heal-up equal to your Charisma modifier
+      <p>A number of times per full heal-up equal to your Charisma modifier
       ([[@cha.mod]], minimum 1), you can as a free action add [[/r 1d4]] to one
       of your attack rolls. Yes, this is supposed to be used after you rolled,
       to hopefully let you turn that miss into a hit. You can only add one d4
@@ -173,9 +172,7 @@ system:
       description:
         type: String
         label: Adventurer Feat
-        value: >-
-          <p>If the
-          attack still misses, deal half damage with it.</p>
+        value: '<p>If the attack still misses, deal half damage with it.</p>'
       isActive:
         type: Boolean
         label: Active
@@ -185,9 +182,8 @@ system:
         type: String
         label: Champion Feat
         value: >-
-          <p>If the
-          attack still misses, also regain the use of this talent you just
-          spent.</p>
+          <p>If the attack still misses, also regain the use of this talent you
+          just spent.</p>
       isActive:
         type: Boolean
         label: Active
@@ -196,9 +192,7 @@ system:
       description:
         type: String
         label: Epic Feat
-        value: >-
-          <p>Increase
-          the bonus to +[[/r 1d6]].</p>
+        value: '<p>Increase the bonus to +[[/r 1d6]].</p>'
       isActive:
         type: Boolean
         label: Active

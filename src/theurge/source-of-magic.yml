@@ -141,13 +141,13 @@ system:
       with staves, but if you prefer the aesthetics of some other implement, go
       along with your imagination. It won&rsquo;t hurt a thing.</p>
 
-      <p>You must, however, choose the ability score you use to make
-      your magic basic attacks. Your choice is between Intelligence, Wisdom and
-      Charisma (which, you&rsquo;ll notice, are the same ability scores this
-      class can give a bonus to). Intelligence improves talents that let you
-      attack multiple targets or otherwise hinder them, Wisdom talents that let
-      you heal or aid your allies, and Charisma works best alongside talents
-      that improve your damage. Wisdom is likely to contribute to your AC, as
+      <p>You must, however, choose the ability score you use to make your magic
+      basic attacks. Your choice is between Intelligence, Wisdom and Charisma
+      (which, you&rsquo;ll notice, are the same ability scores this class can
+      give a bonus to). Intelligence improves talents that let you attack
+      multiple targets or otherwise hinder them, Wisdom talents that let you
+      heal or aid your allies, and Charisma works best alongside talents that
+      improve your damage. Wisdom is likely to contribute to your AC, as
       well.</p>
   spellLevel3:
     type: String

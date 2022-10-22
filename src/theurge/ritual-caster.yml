@@ -132,14 +132,13 @@ system:
     type: String
     label: Effect
     value: >-
-      <p>You
-      are a ritual caster, but since you (mostly) lack the structure of spells
-      or prayers, your attempts at ritual magic must cost a different resource.
-      If you take a talent that lets you borrow spells from another class you
-      can expend those, as usual. Most of the time that won&rsquo;t be the case,
-      however; in those instances, one of your recoveries is likely to be a
-      sufficient sacrifice to perform a lasting magical work of some kind (see
-      page 192 of the core rulebook for more on rituals). Should your skill
+      <p>You are a ritual caster, but since you (mostly) lack the structure of
+      spells or prayers, your attempts at ritual magic must cost a different
+      resource. If you take a talent that lets you borrow spells from another
+      class you can expend those, as usual. Most of the time that won&rsquo;t be
+      the case, however; in those instances, one of your recoveries is likely to
+      be a sufficient sacrifice to perform a lasting magical work of some kind
+      (see page 192 of the core rulebook for more on rituals). Should your skill
       check fail while performing the ritual, giving up a second recovery might
       let you fail forward and succeed (if that is the direction your GM wants
       to take the story). More potent rituals may require the expenditure of

@@ -132,15 +132,14 @@ system:
     type: String
     label: Effect
     value: >-
-      <p>A
-      number of times per day equal to your Intelligence modifier ([[@int.mod]],
-      minimum 1), declare you are using this talent before attacking a target.
-      If you are attacking multiple targets with a single action, you can burn
-      multiple uses of this talent at once, one per target. If your attack(s)
-      hit, the target either becomes *dazed* (save ends) or pops free from
-      engagement and if the natural roll was even loses its next move action as
-      it is pushed back and falls if it makes sense for its size and your
-      attack.</p>
+      <p>A number of times per day equal to your Intelligence modifier
+      ([[@int.mod]], minimum 1), declare you are using this talent before
+      attacking a target. If you are attacking multiple targets with a single
+      action, you can burn multiple uses of this talent at once, one per target.
+      If your attack(s) hit, the target either becomes *dazed* (save ends) or
+      pops free from engagement and if the natural roll was even loses its next
+      move action as it is pushed back and falls if it makes sense for its size
+      and your attack.</p>
   spellLevel3:
     type: String
     label: 3rd Level Spell
@@ -175,9 +174,8 @@ system:
         type: String
         label: Adventurer Feat
         value: >-
-          <p>You can
-          use this talent once per battle, in addition to your uses per full
-          heal-up.</p>
+          <p>You can use this talent once per battle, in addition to your uses
+          per full heal-up.</p>
       isActive:
         type: Boolean
         label: Active
@@ -187,9 +185,8 @@ system:
         type: String
         label: Champion Feat
         value: >-
-          <p>On a
-          natural 16+, the target can become *weakened* and *vulnerable* (save
-          ends) instead, if you wish.</p>
+          <p>On a natural 16+, the target can become *weakened* and *vulnerable*
+          (save ends) instead, if you wish.</p>
       isActive:
         type: Boolean
         label: Active
@@ -199,9 +196,9 @@ system:
         type: String
         label: Epic Feat
         value: >-
-          <p>Once per
-          day on a natural even roll, you can instead make a staggered target
-          become *stunned* or *confused* (save ends), if you wish.</p>
+          <p>Once per day on a natural even roll, you can instead make a
+          staggered target become *stunned* or *confused* (save ends), if you
+          wish.</p>
       isActive:
         type: Boolean
         label: Active

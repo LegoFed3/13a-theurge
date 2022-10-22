@@ -132,12 +132,12 @@ system:
     type: String
     label: Effect
     value: >-
-      <p>Once per encounter, as an interrupt action you may add a +4
-      bonus to your own or an ally&rsquo;s AC. This is intended to let you
-      negate a hit, and we assume the GM will let you know whether the bonus
-      would actually help or not. If it doesn&rsquo;t, feel free to reuse this
-      talent later in the battle (but you still burned your interrupt action
-      this round, sorry).</p>
+      <p>Once per encounter, as an interrupt action you may add a +4 bonus to
+      your own or an ally&rsquo;s AC. This is intended to let you negate a hit,
+      and we assume the GM will let you know whether the bonus would actually
+      help or not. If it doesn&rsquo;t, feel free to reuse this talent later in
+      the battle (but you still burned your interrupt action this round,
+      sorry).</p>
   spellLevel3:
     type: String
     label: 3rd Level Spell
@@ -171,8 +171,7 @@ system:
       description:
         type: String
         label: Adventurer Feat
-        value: >-
-          <p>The bonus applies to PD as well as AC.</p>
+        value: <p>The bonus applies to PD as well as AC.</p>
       isActive:
         type: Boolean
         label: Active
@@ -181,8 +180,7 @@ system:
       description:
         type: String
         label: Champion Feat
-        value: >-
-          <p>You may use this talent twice per encounter.</p>
+        value: <p>You may use this talent twice per encounter.</p>
       isActive:
         type: Boolean
         label: Active
@@ -191,8 +189,7 @@ system:
       description:
         type: String
         label: Epic Feat
-        value: >-
-          <p>The bonus applies to MD as well.</p>
+        value: <p>The bonus applies to MD as well.</p>
       isActive:
         type: Boolean
         label: Active

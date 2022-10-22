@@ -132,11 +132,11 @@ system:
     type: String
     label: Effect
     value: >-
-      <p>Once per full heal up, your scrying or connection to the gods
-      gives you a vision of the future. When you or one of your allies spends a
-      5 with an Icon, you can predict the upcoming complications and turn it
-      into a (trouble-free) 6 instead. Alternatively, you can ask the GM to make
-      a blind normal save (11+) so that you do not see the result: on a success,
+      <p>Once per full heal up, your scrying or connection to the gods gives you
+      a vision of the future. When you or one of your allies spends a 5 with an
+      Icon, you can predict the upcoming complications and turn it into a
+      (trouble-free) 6 instead. Alternatively, you can ask the GM to make a
+      blind normal save (11+) so that you do not see the result: on a success,
       the prophecy/vision you receive truthfully answers a question you ask of
       the GM that you could conceivably have scryed. On a failure, you may
       receive no answer, just gibberish, or possibly the GM might lie.</p>
@@ -181,9 +181,7 @@ system:
       description:
         type: String
         label: Champion Feat
-        value: >-
-          <p>You can
-          use this talent twice per full heal up.</p>
+        value: <p>You can use this talent twice per full heal up.</p>
       isActive:
         type: Boolean
         label: Active

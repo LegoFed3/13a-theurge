@@ -169,8 +169,8 @@ system:
         type: String
         label: Adventurer Feat
         value: >-
-          <p>The target also adds your Wisdom modifier ([[@wis.mod]]) to
-          the reroll.</p>
+          <p>The target also adds your Wisdom modifier ([[@wis.mod]]) to the
+          reroll.</p>
       isActive:
         type: Boolean
         label: Active
@@ -180,8 +180,8 @@ system:
         type: String
         label: Champion Feat
         value: >-
-          <p>you can use this talent once per battle, in addition to
-          however many times per day.</p>
+          <p>you can use this talent once per battle, in addition to however
+          many times per day.</p>
       isActive:
         type: Boolean
         label: Active

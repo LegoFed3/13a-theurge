@@ -132,9 +132,8 @@ system:
     type: String
     label: Effect
     value: >-
-      <p>You
-      gain the Wizard&rsquo;s Cantrip class feature, and you can cast Utility
-      Spell once per full heal-up at your level.</p>
+      <p>You gain the Wizard&rsquo;s Cantrip class feature, and you can cast
+      Utility Spell once per full heal-up at your level.</p>
   spellLevel3:
     type: String
     label: 3rd Level Spell
@@ -169,11 +168,11 @@ system:
         type: String
         label: Adventurer Feat
         value: >-
-          <p>You gain a single spell slot at your level that you can use
-          to prepare a Wizard daily spell. You can change this spell during a
-          full heal-up. Note that Wizard spells use Intelligence for their
-          attack roll, so you may want to avoid this feat if you have low
-          Intelligence, or at least focus on non-attack spells instead.</p>
+          <p>You gain a single spell slot at your level that you can use to
+          prepare a Wizard daily spell. You can change this spell during a full
+          heal-up. Note that Wizard spells use Intelligence for their attack
+          roll, so you may want to avoid this feat if you have low Intelligence,
+          or at least focus on non-attack spells instead.</p>
       isActive:
         type: Boolean
         label: Active

@@ -132,17 +132,15 @@ system:
     type: String
     label: Effect
     value: >-
-      <p>Once
-      per battle plus a number of times per full heal-up equal to your
+      <p>Once per battle plus a number of times per full heal-up equal to your
       Intelligence modifier ([[@int.mod]], minimum 1) you may choose to target
-      [[/r 1d3+1]] targets in a group with your magic basic attack.
-      However, the size of the damage die for this attack drops by one, usually
-      from d8 to d6. And yes, this implies that you normally can&rsquo;t use
-      this talent for a magic melee attack. Unless you happen to be surrounded
-      and have means to increase your magic melee attack damage die size,
-      you&rsquo;re going to have to use your ranged attack for this, and hence
-      would provoke from any engaged enemy that is not included among the
-      targets.</p>
+      [[/r 1d3+1]] targets in a group with your magic basic attack. However, the
+      size of the damage die for this attack drops by one, usually from d8 to
+      d6. And yes, this implies that you normally can&rsquo;t use this talent
+      for a magic melee attack. Unless you happen to be surrounded and have
+      means to increase your magic melee attack damage die size, you&rsquo;re
+      going to have to use your ranged attack for this, and hence would provoke
+      from any engaged enemy that is not included among the targets.</p>
   spellLevel3:
     type: String
     label: 3rd Level Spell
@@ -177,8 +175,7 @@ system:
         type: String
         label: Adventurer Feat
         value: >-
-          <p>Before
-          rolling for targets, you can choose to make your mass magic
+          <p>Before rolling for targets, you can choose to make your mass magic
           attack a reckless one; add [[/r 1d3]] targets, but each time you miss
           deal [[@lvl]] damage to an ally engaged with the missed target, or a
           random nearby ally if none are engaged.</p>
@@ -191,11 +188,10 @@ system:
         type: String
         label: Champion Feat
         value: >-
-          <p>Once per
-          battle, after rolling to determine the number of targets, you can add
-          another target when you use this talent. In addition, one of the
-          targets no longer has to be in the same group as the others, just
-          within reach of your magic.</p>
+          <p>Once per battle, after rolling to determine the number of targets,
+          you can add another target when you use this talent. In addition, one
+          of the targets no longer has to be in the same group as the others,
+          just within reach of your magic.</p>
       isActive:
         type: Boolean
         label: Active
@@ -205,9 +201,8 @@ system:
         type: String
         label: Epic Feat
         value: >-
-          <p>Once per
-          battle, ignore the damage die size penalty from this talent when you
-          use it.</p>
+          <p>Once per battle, ignore the damage die size penalty from this
+          talent when you use it.</p>
       isActive:
         type: Boolean
         label: Active

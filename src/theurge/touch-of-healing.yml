@@ -132,9 +132,9 @@ system:
     type: String
     label: Effect
     value: >-
-      <p>Twice per battle as a quick action, you can let yourself or a
-      nearby ally heal by spending a recovery. You can only use this talent once
-      per round.</p>
+      <p>Twice per battle as a quick action, you can let yourself or a nearby
+      ally heal by spending a recovery. You can only use this talent once per
+      round.</p>
   spellLevel3:
     type: String
     label: 3rd Level Spell
@@ -168,9 +168,7 @@ system:
       description:
         type: String
         label: Adventurer Feat
-        value: >-
-          <p>Add [[@wis.dmg]] to the healing provided by the
-          recovery.</p>
+        value: '<p>Add [[@wis.dmg]] to the healing provided by the recovery.</p>'
       isActive:
         type: Boolean
         label: Active
@@ -179,8 +177,7 @@ system:
       description:
         type: String
         label: Champion Feat
-        value: >-
-          <p>You can use this talent three times per battle.</p>
+        value: <p>You can use this talent three times per battle.</p>
       isActive:
         type: Boolean
         label: Active
@@ -190,10 +187,9 @@ system:
         type: String
         label: Epic Feat
         value: >-
-          <p>Once per
-          day maximize the healing provided by the recovery (don&rsquo;t even
-          roll it, assume all dice ended up on their maximum possible
-          value).</p>
+          <p>Once per day maximize the healing provided by the recovery
+          (don&rsquo;t even roll it, assume all dice ended up on their maximum
+          possible value).</p>
       isActive:
         type: Boolean
         label: Active

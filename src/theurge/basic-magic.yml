@@ -132,22 +132,21 @@ system:
     type: String
     label: Effect
     value: >-
-      <p>Your main attacks are your magic basic attacks. These count as
-      basic attacks for the purpose of things like making opportunity attacks
-      (or a commander or bard&rsquo;s granting you extra basic attacks), and
-      unlike a ranged spell you can use your magic ranged attack to target an
-      enemy engaged with you without provoking an opportunity attack from it
-      (exactly like any basic ranged attack). You still provoke from any other
-      enemy engaged with you, however. In addition, you can&rsquo;t use your
+      <p>Your main attacks are your magic basic attacks. These count as basic
+      attacks for the purpose of things like making opportunity attacks (or a
+      commander or bard&rsquo;s granting you extra basic attacks), and unlike a
+      ranged spell you can use your magic ranged attack to target an enemy
+      engaged with you without provoking an opportunity attack from it (exactly
+      like any basic ranged attack). You still provoke from any other enemy
+      engaged with you, however. In addition, you can&rsquo;t use your
       magic-based basic attacks while you are hampered.&nbsp;</p>
 
-      <p>Your talents modify your magic basic attacks, and are
-      designed so that you can apply multiple such talents to the same basic
-      attack at once. You gain all of the talent&rsquo;s benefits for that
-      attack, and penalties and bonuses to e.g. damage die size stack as
-      you&rsquo;d expect. So an attack benefitting from both Mystical Might and
-      Mass Enchantment would increase the damage die size by a single stage, for
-      example.</p>
+      <p>Your talents modify your magic basic attacks, and are designed so that
+      you can apply multiple such talents to the same basic attack at once. You
+      gain all of the talent&rsquo;s benefits for that attack, and penalties and
+      bonuses to e.g. damage die size stack as you&rsquo;d expect. So an attack
+      benefitting from both Mystical Might and Mass Enchantment would increase
+      the damage die size by a single stage, for example.</p>
   spellLevel3:
     type: String
     label: 3rd Level Spell
@@ -182,9 +181,8 @@ system:
         type: String
         label: Adventurer Feat
         value: >-
-          <p>You can
-          target far away enemies with your basic magic ranged attack, at
-          a -2 penalty to the attack roll.</p>
+          <p>You can target far away enemies with your basic magic ranged
+          attack, at a -2 penalty to the attack roll.</p>
       isActive:
         type: Boolean
         label: Active

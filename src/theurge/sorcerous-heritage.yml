@@ -132,12 +132,12 @@ system:
     type: String
     label: Effect
     value: >-
-      <p>Once per battle you can spend your standard action to Gather
-      Power like a Sorcerer, gaining a chaotic benefit as normal. The next spell
-      you cast or basic magic attack you make has its effect doubled: unlike a
-      sorcerer this includes doubling its damage, hit or miss, but also doubling
-      its positive effects such as healing or temporary hit points, so you could
-      use it to double the healing (but not the cost) of a use of your Touch of
+      <p>Once per battle you can spend your standard action to Gather Power like
+      a Sorcerer, gaining a chaotic benefit as normal. The next spell you cast
+      or basic magic attack you make has its effect doubled: unlike a sorcerer
+      this includes doubling its damage, hit or miss, but also doubling its
+      positive effects such as healing or temporary hit points, so you could use
+      it to double the healing (but not the cost) of a use of your Touch of
       Healing talent, for example, or gain double the attack bonus from that
       Bless spell you learned from your Priestly Training. You also gain one
       sorcerer daily or recharge spell of your choice, which you can change
@@ -180,10 +180,9 @@ system:
         type: String
         label: Adventurer Feat
         value: >-
-          <p>You gain
-          an additional Icon relationship point with a sorcerous Icon associated
-          with your magical heritage, subject to the usual limits on
-          relationships.</p>
+          <p>You gain an additional Icon relationship point with a sorcerous
+          Icon associated with your magical heritage, subject to the usual
+          limits on relationships.</p>
       isActive:
         type: Boolean
         label: Active
