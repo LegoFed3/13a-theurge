@@ -13,6 +13,7 @@
       "id": "archmage",
       "type": "system",
       "compatibility": {
+        "minimum": "1.23.0",
         "verified": "1.23.0"
       }
     }]
