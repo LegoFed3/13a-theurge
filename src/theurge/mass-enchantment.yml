@@ -1,0 +1,222 @@
+name: Mass Enchantment
+type: power
+img: systems/archmage/assets/icons/skills/weapon_27.jpg
+system:
+  name:
+    type: String
+    label: Name
+  description:
+    type: String
+    label: Description
+  powerUsage:
+    type: String
+    label: Power Usage
+    value: other
+  recharge:
+    type: Number
+    label: Recharge
+    value: 0
+  rechargeAttempts:
+    type: Number
+    label: Number of Recharges Attempted
+    value: 0
+  quantity:
+    type: Number
+    label: Uses
+    value: 1
+  maxQuantity:
+    type: Number
+    label: Max Uses
+    value: 1
+  group:
+    type: String
+    label: Group
+    value: ''
+  powerSource:
+    type: String
+    label: Power Source
+    value: class
+  powerSourceName:
+    type: String
+    label: Power Source Name
+    value: Theurge
+  powerOriginName:
+    type: String
+    label: Power Original Name
+    value: Mass Enchantment
+  powerType:
+    type: String
+    label: Power Type
+    value: talent
+  powerLevel:
+    type: Number
+    label: Level
+    value: 1
+  actionType:
+    type: String
+    label: Action
+    value: free
+  range:
+    type: String
+    label: Range
+    value: ''
+  trigger:
+    type: String
+    label: Trigger
+    value: ''
+  target:
+    type: String
+    label: Target
+    value: ''
+  always:
+    type: String
+    label: Always
+    value: ''
+  attack:
+    type: String
+    label: Attack
+    value: ''
+  hit:
+    type: String
+    label: Hit
+    value: ''
+  hitEven:
+    type: String
+    label: Natural Even Hit
+    value: ''
+  hitOdd:
+    type: String
+    label: Natural Odd Hit
+    value: ''
+  crit:
+    type: String
+    label: Crit
+    value: ''
+  miss:
+    type: String
+    label: Miss
+    value: ''
+  missEven:
+    type: String
+    label: Even Miss
+    value: ''
+  missOdd:
+    type: String
+    label: Odd Miss
+    value: ''
+  cost:
+    type: String
+    label: Cost
+    value: ''
+  castBroadEffect:
+    type: String
+    label: Cast for Broad Effect
+    value: ''
+  castPower:
+    type: String
+    label: Cast for Power
+    value: ''
+  sustainedEffect:
+    type: String
+    label: Opening and Sustained Effect
+    value: ''
+  finalVerse:
+    type: String
+    label: Final Verse
+    value: ''
+  special:
+    type: String
+    label: Special
+    value: ''
+  effect:
+    type: String
+    label: Effect
+    value: >-
+      <p>Once per battle plus a number of times per full heal-up equal to your
+      Intelligence modifier ([[@int.mod]], minimum 1) you may choose to target
+      [[/r 1d3+1]] targets in a group with your magic basic attack. However, the
+      size of the damage die for this attack drops by one, usually from d8 to
+      d6. And yes, this implies that you normally can&rsquo;t use this talent
+      for a magic melee attack. Unless you happen to be surrounded and have
+      means to increase your magic melee attack damage die size, you&rsquo;re
+      going to have to use your ranged attack for this, and hence would provoke
+      from any engaged enemy that is not included among the targets.</p>
+  spellLevel3:
+    type: String
+    label: 3rd Level Spell
+    value: ''
+  spellLevel5:
+    type: String
+    label: 5th Level Spell
+    value: ''
+  spellLevel7:
+    type: String
+    label: 7th Level Spell
+    value: ''
+  spellLevel9:
+    type: String
+    label: 9th Level Spell
+    value: ''
+  spellChain:
+    type: String
+    label: Chain Spell
+    value: ''
+  breathWeapon:
+    type: String
+    label: Breath Weapon
+    value: ''
+  sustainOn:
+    type: Number
+    label: Sustain On
+    value: null
+  feats:
+    adventurer:
+      description:
+        type: String
+        label: Adventurer Feat
+        value: >-
+          <p>Before rolling for targets, you can choose to make your mass magic
+          attack a reckless one; add [[/r 1d3]] targets, but each time you miss
+          deal [[@lvl]] damage to an ally engaged with the missed target, or a
+          random nearby ally if none are engaged.</p>
+      isActive:
+        type: Boolean
+        label: Active
+        value: false
+    champion:
+      description:
+        type: String
+        label: Champion Feat
+        value: >-
+          <p>Once per battle, after rolling to determine the number of targets,
+          you can add another target when you use this talent. In addition, one
+          of the targets no longer has to be in the same group as the others,
+          just within reach of your magic.</p>
+      isActive:
+        type: Boolean
+        label: Active
+        value: false
+    epic:
+      description:
+        type: String
+        label: Epic Feat
+        value: >-
+          <p>Once per battle, ignore the damage die size penalty from this
+          talent when you use it.</p>
+      isActive:
+        type: Boolean
+        label: Active
+        value: false
+  embeddedMacro:
+    type: String
+    label: Embedded Macro
+    value: ''
+effects: []
+flags: {}
+folder: null
+sort: 0
+ownership:
+  default: 0
+_id: 8Q01nlZkSs7qt2HB
+permission:
+  default: 0

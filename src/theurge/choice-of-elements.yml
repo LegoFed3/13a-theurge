@@ -1,0 +1,217 @@
+name: Choice of Elements
+type: power
+img: systems/archmage/assets/icons/skills/weapon_27.jpg
+system:
+  name:
+    type: String
+    label: Name
+  description:
+    type: String
+    label: Description
+  powerUsage:
+    type: String
+    label: Power Usage
+    value: ''
+  recharge:
+    type: Number
+    label: Recharge
+    value: 0
+  rechargeAttempts:
+    type: Number
+    label: Number of Recharges Attempted
+    value: 0
+  quantity:
+    type: Number
+    label: Uses
+    value: null
+  maxQuantity:
+    type: Number
+    label: Max Uses
+    value: null
+  group:
+    type: String
+    label: Group
+    value: ''
+  powerSource:
+    type: String
+    label: Power Source
+    value: class
+  powerSourceName:
+    type: String
+    label: Power Source Name
+    value: Theurge
+  powerOriginName:
+    type: String
+    label: Power Original Name
+    value: Choice of Elements
+  powerType:
+    type: String
+    label: Power Type
+    value: feature
+  powerLevel:
+    type: Number
+    label: Level
+    value: 1
+  actionType:
+    type: String
+    label: Action
+    value: ''
+  range:
+    type: String
+    label: Range
+    value: ''
+  trigger:
+    type: String
+    label: Trigger
+    value: ''
+  target:
+    type: String
+    label: Target
+    value: ''
+  always:
+    type: String
+    label: Always
+    value: ''
+  attack:
+    type: String
+    label: Attack
+    value: ''
+  hit:
+    type: String
+    label: Hit
+    value: ''
+  hitEven:
+    type: String
+    label: Natural Even Hit
+    value: ''
+  hitOdd:
+    type: String
+    label: Natural Odd Hit
+    value: ''
+  crit:
+    type: String
+    label: Crit
+    value: ''
+  miss:
+    type: String
+    label: Miss
+    value: ''
+  missEven:
+    type: String
+    label: Even Miss
+    value: ''
+  missOdd:
+    type: String
+    label: Odd Miss
+    value: ''
+  cost:
+    type: String
+    label: Cost
+    value: ''
+  castBroadEffect:
+    type: String
+    label: Cast for Broad Effect
+    value: ''
+  castPower:
+    type: String
+    label: Cast for Power
+    value: ''
+  sustainedEffect:
+    type: String
+    label: Opening and Sustained Effect
+    value: ''
+  finalVerse:
+    type: String
+    label: Final Verse
+    value: ''
+  special:
+    type: String
+    label: Special
+    value: ''
+  effect:
+    type: String
+    label: Effect
+    value: >-
+      <p>Choose two types of damage for your attacks: acid, cold, fire, force,
+      holy, lightning, negative energy, poison, psychic and thunder. You can
+      deal damage of either of these types with your magic basic attacks, which
+      normally target PD. Psychic is a little special: your basic attacks
+      dealing psychic damage target MD instead of PD, but also deal slightly
+      less damage: you do not add any ability score modifier to damage when
+      attacking MD. This is to account for the fact that MD is usually the
+      easiest defense to hit, and it roughly balances out in terms of your
+      average damage. Feel free to target MD with any other damage type you feel
+      is appropriate for your character, but if you do you suffer the same
+      penalty to damage.</p>
+  spellLevel3:
+    type: String
+    label: 3rd Level Spell
+    value: ''
+  spellLevel5:
+    type: String
+    label: 5th Level Spell
+    value: ''
+  spellLevel7:
+    type: String
+    label: 7th Level Spell
+    value: ''
+  spellLevel9:
+    type: String
+    label: 9th Level Spell
+    value: ''
+  spellChain:
+    type: String
+    label: Chain Spell
+    value: ''
+  breathWeapon:
+    type: String
+    label: Breath Weapon
+    value: ''
+  sustainOn:
+    type: Number
+    label: Sustain On
+    value: null
+  feats:
+    adventurer:
+      description:
+        type: String
+        label: Adventurer Feat
+        value: >-
+          <p>you can pick a number of additional types from the list equal to
+          your level, up to the entire list (and yes, when you next advance in
+          level after picking this feat you can make a new choice, and so on).
+          Feel free to roll randomly to determine the damage type of your
+          attacks if you feel like it, but you don&rsquo;t have to.</p>
+      isActive:
+        type: Boolean
+        label: Active
+        value: false
+    champion:
+      description:
+        type: String
+        label: Champion Feat
+      isActive:
+        type: Boolean
+        label: Active
+        value: false
+    epic:
+      description:
+        type: String
+        label: Epic Feat
+      isActive:
+        type: Boolean
+        label: Active
+        value: false
+  embeddedMacro:
+    type: String
+    label: Embedded Macro
+    value: ''
+effects: []
+flags: {}
+folder: null
+sort: 0
+ownership:
+  default: 0
+_id: RR3KNPpxAzHfAsDp
+permission:
+  default: 0

@@ -1,6 +1,6 @@
 # Theurge (13th Age) Class for the Toolkit13 System
 
-This Foundry VTT module adds the community-adapted Theurge class (revision 2.7.0) for the 13th Age system to the Toolkit13 system. It also serves as an example of how to add new classes to said system.
+This Foundry VTT module adds the community-adapted Theurge class (revision 2.7.0) for 13th Age to the Toolkit13 system. It also serves as an example of how to add new classes to said system.
 
 ## Installation
 Either search for "Theurge (13th Age)" in Foundry's module browser or click Install Module and enter the following URL: https://raw.githubusercontent.com/LegoFed3/13a-theurge/main/module.json

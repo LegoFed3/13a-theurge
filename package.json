@@ -1,0 +1,28 @@
+{
+  "name": "13a-theurge",
+  "version": "1.0.0",
+  "description": "Pack exporter/builder",
+  "scripts": {
+    "compilePacks": "gulp compilePacks",
+    "extractPacks": "gulp extractPacks",
+    "gulp": "gulp"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead",
+    "not ie 11"
+  ],
+  "author": "Asacolips & LegoFed3",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-clean": "^0.4.0",
+    "gulp-yaml": "^2.0.4",
+    "merge-stream": "^2.0.0",
+    "nedb": "^1.8.0",
+    "path": "^0.12.7",
+    "through2": "^4.0.2"
+  }
+}

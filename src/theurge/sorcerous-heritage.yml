@@ -1,0 +1,222 @@
+name: Sorcerous Heritage
+type: power
+img: systems/archmage/assets/icons/skills/weapon_27.jpg
+system:
+  name:
+    type: String
+    label: Name
+  description:
+    type: String
+    label: Description
+  powerUsage:
+    type: String
+    label: Power Usage
+    value: once-per-battle
+  recharge:
+    type: Number
+    label: Recharge
+    value: 0
+  rechargeAttempts:
+    type: Number
+    label: Number of Recharges Attempted
+    value: 0
+  quantity:
+    type: Number
+    label: Uses
+    value: 1
+  maxQuantity:
+    type: Number
+    label: Max Uses
+    value: 1
+  group:
+    type: String
+    label: Group
+    value: ''
+  powerSource:
+    type: String
+    label: Power Source
+    value: class
+  powerSourceName:
+    type: String
+    label: Power Source Name
+    value: Theurge
+  powerOriginName:
+    type: String
+    label: Power Original Name
+    value: Sorcerous Heritage
+  powerType:
+    type: String
+    label: Power Type
+    value: talent
+  powerLevel:
+    type: Number
+    label: Level
+    value: 1
+  actionType:
+    type: String
+    label: Action
+    value: standard
+  range:
+    type: String
+    label: Range
+    value: ''
+  trigger:
+    type: String
+    label: Trigger
+    value: ''
+  target:
+    type: String
+    label: Target
+    value: ''
+  always:
+    type: String
+    label: Always
+    value: ''
+  attack:
+    type: String
+    label: Attack
+    value: ''
+  hit:
+    type: String
+    label: Hit
+    value: ''
+  hitEven:
+    type: String
+    label: Natural Even Hit
+    value: ''
+  hitOdd:
+    type: String
+    label: Natural Odd Hit
+    value: ''
+  crit:
+    type: String
+    label: Crit
+    value: ''
+  miss:
+    type: String
+    label: Miss
+    value: ''
+  missEven:
+    type: String
+    label: Even Miss
+    value: ''
+  missOdd:
+    type: String
+    label: Odd Miss
+    value: ''
+  cost:
+    type: String
+    label: Cost
+    value: ''
+  castBroadEffect:
+    type: String
+    label: Cast for Broad Effect
+    value: ''
+  castPower:
+    type: String
+    label: Cast for Power
+    value: ''
+  sustainedEffect:
+    type: String
+    label: Opening and Sustained Effect
+    value: ''
+  finalVerse:
+    type: String
+    label: Final Verse
+    value: ''
+  special:
+    type: String
+    label: Special
+    value: ''
+  effect:
+    type: String
+    label: Effect
+    value: >-
+      <p>Once per battle you can spend your standard action to Gather Power like
+      a Sorcerer, gaining a chaotic benefit as normal. The next spell you cast
+      or basic magic attack you make has its effect doubled: unlike a sorcerer
+      this includes doubling its damage, hit or miss, but also doubling its
+      positive effects such as healing or temporary hit points, so you could use
+      it to double the healing (but not the cost) of a use of your Touch of
+      Healing talent, for example, or gain double the attack bonus from that
+      Bless spell you learned from your Priestly Training. You also gain one
+      sorcerer daily or recharge spell of your choice, which you can change
+      after each full heal-up. Note that you are not limited to casting sorcerer
+      spells after gathering power, your magical flexibility lets you cast any
+      spell you may know. Also, since sorcerer spells use Charisma as their
+      attack stat, you might want to avoid this talent unless you have a decent
+      score in that attribute (or plan to borrow a non-attack spell).</p>
+  spellLevel3:
+    type: String
+    label: 3rd Level Spell
+    value: ''
+  spellLevel5:
+    type: String
+    label: 5th Level Spell
+    value: ''
+  spellLevel7:
+    type: String
+    label: 7th Level Spell
+    value: ''
+  spellLevel9:
+    type: String
+    label: 9th Level Spell
+    value: ''
+  spellChain:
+    type: String
+    label: Chain Spell
+    value: ''
+  breathWeapon:
+    type: String
+    label: Breath Weapon
+    value: ''
+  sustainOn:
+    type: Number
+    label: Sustain On
+    value: null
+  feats:
+    adventurer:
+      description:
+        type: String
+        label: Adventurer Feat
+        value: >-
+          <p>You gain an additional Icon relationship point with a sorcerous
+          Icon associated with your magical heritage, subject to the usual
+          limits on relationships.</p>
+      isActive:
+        type: Boolean
+        label: Active
+        value: false
+    champion:
+      description:
+        type: String
+        label: Champion Feat
+        value: <p>Gain a 2nd sorcerer daily or recharge spell of your choice.</p>
+      isActive:
+        type: Boolean
+        label: Active
+        value: false
+    epic:
+      description:
+        type: String
+        label: Epic Feat
+        value: >-
+          <p>Once per full heal-up when the E.D. is 2+ you can gather power as a
+          quick action.</p>
+      isActive:
+        type: Boolean
+        label: Active
+        value: false
+  embeddedMacro:
+    type: String
+    label: Embedded Macro
+    value: ''
+effects: []
+flags: {}
+folder: null
+sort: 0
+ownership:
+  default: 0
+_id: pp2aDZN2wKION7uz
+permission:
+  default: 0
