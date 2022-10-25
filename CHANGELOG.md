@@ -1,5 +1,8 @@
 # Changelog
 
+## 1.0.2
+- Update documentation.
+
 ## 1.0.1
 - Add Matt Smith's nedb extract/compile tool;
 - Fix magic attacks damage formulae.
