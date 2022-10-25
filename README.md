@@ -23,23 +23,23 @@ Note: a pack's name is its `name` property defined in your module's `module.json
 
 ### Racial Powers
 
-Pack type: item
-Pack name: races (exact match)
+- Pack type: item
+- Pack name: races (exact match)
 
 Racial  powers must have the race name in the Power Source field. For powers available to multiple races, or races with multiple names, separate them with "\/" such as in 'Dragonic \/ Dragonspawn' and note that the names must corresponds to the values in `CONFIG.ARCHMAGE.raceList` (note: new races have to be added to that object for the system to recognize them).
 
 ### Class Powers
 
-Pack type: item
-Pack name: the class name (as it appears in the property name of `CONFIG.ARCHMAGE.classList`, i.e., without spaces) 
+- Pack type: item
+- Pack name: the class name (as it appears in the property name of `CONFIG.ARCHMAGE.classList`, i.e., without spaces) 
 
 Class powers are organized based on their type and level in the power importer. If no level is set, they are assumed to be level 1.
 Features are always shown on top, and pre-selected unless already present on the actor.
 
 ### Class Descriptions
 
-Pack type: journal
-Pack name: classes (must include this substring in the name)
+- Pack type: journal
+- Pack name: classes (must include this substring in the name)
 
 Class descriptions are included at the top of the related page in the power importer, and should contain an overview of the class, its important stats and its progression table.
 To be correctly matched to the related class a journal's name must coincide exactly with the related class name value stored in `CONFIG.ARCHMAGE.raceList`.
