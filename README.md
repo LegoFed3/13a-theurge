@@ -1,6 +1,6 @@
 # Theurge (13th Age) Class for the Toolkit13 System
 
-This Foundry VTT module adds the community-adapted Theurge class (revision 2.7.0) for 13th Age to the Toolkit13 system. It also serves as an example of how to add new classes to said system.
+This Foundry VTT module adds the community-adapted Theurge class (revision 2.7.0) for 13th Age to the Toolkit13 system. It also serves as an example of how to add new classes to said system, as detailed below.
 
 ## Installation
 Either search for "Theurge (13th Age)" in Foundry's module browser or click Install Module and enter the following URL: https://raw.githubusercontent.com/LegoFed3/13a-theurge/main/module.json
@@ -10,14 +10,14 @@ Click Install and wait for the installation to complete.
 ## Compatibility
 
 Compatible with Foundry VTT v10 and later.
-Tested with Foundry VTT v10.
 Requires Toolkit13 (13th Age compatible) system version 1.23.0 or later.
+Tested with Foundry VTT v10 and Toolkit13 version 1.23.0.
 
 ## Adding new Class and Race content to Toolkit13
 
-To work with the system any new content *must* be stored in dedicated compendiums, as detailed here.
+To work with the system any new content *must* be packaged into dedicated compendiums as described below.
 Furthermore, *new* classes and races *must* be added to the system's internal configuration with a small Javascript hook, as shown in `scripts/setup.js`.
-For classes, this includes adding a compressed version of the class important numbers such as base defences and hp, weapon and recovery die sizes, etc. as well as *optionally* some hints regarding default multiclass Key Modifier choices for known class combinations. These are used to autoncifigure the related numbers when setting a character actor's class.
+For classes, this includes adding a compressed version of the class important numbers such as base defences and hp, weapon and recovery die sizes, etc. as well as *optionally* some hints regarding default multiclass Key Modifier choices for known class combinations. These are used to autoconfigure the related numbers when setting a character actor's class.
 
 Note: a pack's name is its `name` property defined in your module's `module.json` or world's `world.json` files. The latter defaults to the lower case of the `label` that is entered and shown in Foundry's UI.
 
