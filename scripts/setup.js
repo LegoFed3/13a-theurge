@@ -51,5 +51,8 @@ Hooks.on("ready", function() {
   // Add class description pack - adds descriptions to power importer
   CONFIG.ARCHMAGE.classPacks.push("classes-theurge");
 
+  // Add new race - this enables race recognition
+  // ARCHMAGE.raceList["newrace"] = "NewRace";
+
   console.log("Theurge (13th Age) class loaded succesfully." );
 });
