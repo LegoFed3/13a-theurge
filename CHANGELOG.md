@@ -1,5 +1,8 @@
 # Changelog
 
+## 1.0.3
+- Add class resource documentation and example code.
+
 ## 1.0.2
 - Update documentation.
 

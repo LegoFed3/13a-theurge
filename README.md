@@ -17,7 +17,7 @@ Tested with Foundry VTT v10 and Toolkit13 version 1.23.0.
 
 To work with the system any new content *must* be packaged into dedicated compendiums as described below.
 Furthermore, *new* classes and races *must* be added to the system's internal configuration with a small Javascript hook, as shown in `scripts/setup.js`.
-For classes, this includes adding a compressed version of the class important numbers such as base defences and hp, weapon and recovery die sizes, etc. as well as *optionally* some hints regarding default multiclass Key Modifier choices for known class combinations. These are used to autoconfigure the related numbers when setting a character actor's class.
+For classes, this includes adding a compressed version of the important class numbers such as base defences and hp, weapon and recovery die sizes, etc. as well as *optionally* some hints regarding default multiclass Key Modifier choices for known class combinations and any custom resource the system should set up to support the class' powers. This data is used to autoconfigure a character actor when setting its class.
 
 Note: a pack's name is its `name` property defined in your module's `module.json` or world's `world.json` files. The latter defaults to the lower case of the `label` that is entered and shown in Foundry's UI.
 
