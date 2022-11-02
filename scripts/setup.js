@@ -2,6 +2,9 @@
 Hooks.on("ready", function() {
   console.log("Theurge (13th Age) class injecting data into the system...");
 
+  // Add new race - this enables race recognition
+  // ARCHMAGE.raceList["newrace"] = "NewRace";
+
   // Add new class name to classList - this enable class recognition.
   CONFIG.ARCHMAGE.classList["theurge"] = "Theurge";
 
@@ -21,6 +24,9 @@ Hooks.on("ready", function() {
     wpn_rngd: 4,
     skilled_warrior: false
   };
+
+  // Add class description pack - adds descriptions to power importer
+  CONFIG.ARCHMAGE.classPacks.push("classes-theurge");
 
   /* 
    * Add some picks to keyModifiers - this sets the default Key Modifier
@@ -48,11 +54,16 @@ Hooks.on("ready", function() {
     'wizard': ['int', 'cha'],
   };
 
-  // Add class description pack - adds descriptions to power importer
-  CONFIG.ARCHMAGE.classPacks.push("classes-theurge");
-
-  // Add new race - this enables race recognition
-  // ARCHMAGE.raceList["newrace"] = "NewRace";
+  /*
+   * Add custom resources - this configures the specified resource(s) and its(their) rest behavior.
+   * These are stored as an array of couples (arrays) with the resource label and rest behavior, such as:
+   * - none: do not modify the resource on resting
+   * - quick: refill the resource on a any rest
+   * - full: refill the resource on a full heal up only
+   * - quickreset: reset the resource to zero on any rest
+   * - fullreset: reset the resource to zero on a full heal up only
+   */
+  // CONFIG.ARCHMAGE.classResources['theurge'] = [["My New Resource 1", "quick"], ["My New Resource 1", "full"]];
 
   console.log("Theurge (13th Age) class loaded succesfully." );
 });
