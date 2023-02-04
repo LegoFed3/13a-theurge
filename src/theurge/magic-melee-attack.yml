@@ -82,7 +82,7 @@ system:
     type: String
     label: Hit
     value: >-
-      [[(@lvl)d4+max(@int.dmg, @wis.dmg, @cha.dmg)+max(@atk.a.bonus,
+      [[(@lvldice)d4+max(@int.dmg, @wis.dmg, @cha.dmg)+max(@atk.a.bonus,
       @atk.d.bonus)]] CHOOSE ELEMENT damage
   hitEven:
     type: String
@@ -108,9 +108,9 @@ system:
     type: String
     label: Odd Miss
     value: ''
-  cost:
+  resources:
     type: String
-    label: Cost
+    label: 'Resources'
     value: ''
   castBroadEffect:
     type: String

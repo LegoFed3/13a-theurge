@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.0.4
+- Make use of 2e compatible shorthands in Theurge powers;
+- Update power structure to reflect Toolkit13 1.25.0 changes.
+
 ## 1.0.3
 - Add class resource documentation and example code.
 
