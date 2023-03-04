@@ -3,7 +3,7 @@
   "title": "Theurge (13th Age)",
   "description": "A simple module adding the community-adapted Theurge class for the 13th Age system",
   "authors": [{"name": "Federico Pederzolli"}],
-  "version": "1.0.3",
+  "version": "1.0.4",
   "compatibility": {
     "minimum": "10",
     "verified": "10.291"
