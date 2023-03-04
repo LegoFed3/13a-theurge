@@ -149,7 +149,7 @@ function extractPacks() {
 /*  Export Tasks
 /* ----------------------------------------- */
 
-exports.default = gulp.series(extractPacks);
+exports.default = gulp.series(compilePacks);
 exports.cleanPacks = gulp.series(cleanPacks);
 exports.compilePacks = gulp.series(cleanPacks, compilePacks);
 exports.extractPacks = gulp.series(extractPacks);

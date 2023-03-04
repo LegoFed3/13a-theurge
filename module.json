@@ -6,21 +6,21 @@
   "version": "1.0.3",
   "compatibility": {
     "minimum": "10",
-    "verified": "10"
+    "verified": "10.291"
   },
   "relationships": {
     "systems": [{
       "id": "archmage",
       "type": "system",
       "compatibility": {
-        "minimum": "1.23.0",
-        "verified": "1.23.0"
+        "minimum": "1.25.0",
+        "verified": "1.25.0"
       }
     }]
   },
   "url": "https://github.com/LegoFed3/13a-theurge/tree/main",
   "manifest": "https://raw.githubusercontent.com/LegoFed3/13a-theurge/main/module.json",
-  "download": "https://github.com/LegoFed3/13a-theurge/archive/refs/tags/1.0.3.zip",
+  "download": "https://github.com/LegoFed3/13a-theurge/archive/refs/tags/1.0.4.zip",
   "scripts": [
     "scripts/setup.js"
   ],
