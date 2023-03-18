@@ -164,36 +164,66 @@ system:
     label: Sustain On
     value: null
   feats:
-    adventurer:
+    0:
       description:
-        type: String
-        label: Adventurer Feat
+        type: 'String'
         value: '<p>Add [[@wis.dmg]] to the healing provided by the recovery.</p>'
       isActive:
-        type: Boolean
-        label: Active
+        type: 'Boolean'
         value: false
-    champion:
+      tier:
+        type: 'String'
+        value: 'adventurer'
+      powerUsage:
+        type: 'String'
+        value: ''
+      quantity:
+        type: 'Number'
+        value: null
+      maxQuantity:
+        type: 'Number'
+        value: null
+    1:
       description:
-        type: String
-        label: Champion Feat
-        value: <p>You can use this talent three times per battle.</p>
+        type: 'String'
+        value: '<p>You can use this talent three times per battle.</p>'
       isActive:
-        type: Boolean
-        label: Active
+        type: 'Boolean'
         value: false
-    epic:
+      tier:
+        type: 'String'
+        value: 'champion'
+      powerUsage:
+        type: 'String'
+        value: ''
+      quantity:
+        type: 'Number'
+        value: null
+      maxQuantity:
+        type: 'Number'
+        value: null
+    2:
       description:
-        type: String
-        label: Epic Feat
+        type: 'String'
         value: >-
           <p>Once per day maximize the healing provided by the recovery
           (don&rsquo;t even roll it, assume all dice ended up on their maximum
           possible value).</p>
       isActive:
-        type: Boolean
-        label: Active
+        type: 'Boolean'
         value: false
+      tier:
+        type: 'String'
+        value: 'epic'
+      powerUsage:
+        type: 'String'
+        value: 'daily'
+      quantity:
+        type: 'Number'
+        value: 1
+      maxQuantity:
+        type: 'Number'
+        value: 1
   embeddedMacro:
     type: String
     label: Embedded Macro

@@ -172,10 +172,9 @@ system:
     label: Sustain On
     value: null
   feats:
-    adventurer:
+    0:
       description:
-        type: String
-        label: Adventurer Feat
+        type: 'String'
         value: >-
           <p>you can pick a number of additional types from the list equal to
           your level, up to the entire list (and yes, when you next advance in
@@ -183,25 +182,20 @@ system:
           Feel free to roll randomly to determine the damage type of your
           attacks if you feel like it, but you don&rsquo;t have to.</p>
       isActive:
-        type: Boolean
-        label: Active
+        type: 'Boolean'
         value: false
-    champion:
-      description:
-        type: String
-        label: Champion Feat
-      isActive:
-        type: Boolean
-        label: Active
-        value: false
-    epic:
-      description:
-        type: String
-        label: Epic Feat
-      isActive:
-        type: Boolean
-        label: Active
-        value: false
+      tier:
+        type: 'String'
+        value: 'adventurer'
+      powerUsage:
+        type: 'String'
+        value: ''
+      quantity:
+        type: 'Number'
+        value: null
+      maxQuantity:
+        type: 'Number'
+        value: null
   embeddedMacro:
     type: String
     label: Embedded Macro
