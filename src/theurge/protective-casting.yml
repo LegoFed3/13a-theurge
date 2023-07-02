@@ -167,33 +167,63 @@ system:
     label: Sustain On
     value: null
   feats:
-    adventurer:
+    0:
       description:
-        type: String
-        label: Adventurer Feat
-        value: <p>The bonus applies to PD as well as AC.</p>
+        type: 'String'
+        value: '<p>The bonus applies to PD as well as AC.</p>'
       isActive:
-        type: Boolean
-        label: Active
+        type: 'Boolean'
         value: false
-    champion:
+      tier:
+        type: 'String'
+        value: 'adventurer'
+      powerUsage:
+        type: 'String'
+        value: ''
+      quantity:
+        type: 'Number'
+        value: null
+      maxQuantity:
+        type: 'Number'
+        value: null
+    1:
       description:
-        type: String
-        label: Champion Feat
-        value: <p>You may use this talent twice per encounter.</p>
+        type: 'String'
+        value: '<p>You may use this talent twice per encounter.</p>'
       isActive:
-        type: Boolean
-        label: Active
+        type: 'Boolean'
         value: false
-    epic:
+      tier:
+        type: 'String'
+        value: 'champion'
+      powerUsage:
+        type: 'String'
+        value: ''
+      quantity:
+        type: 'Number'
+        value: null
+      maxQuantity:
+        type: 'Number'
+        value: null
+    2:
       description:
-        type: String
-        label: Epic Feat
-        value: <p>The bonus applies to MD as well.</p>
+        type: 'String'
+        value: '<p>The bonus applies to MD as well.</p>'
       isActive:
-        type: Boolean
-        label: Active
+        type: 'Boolean'
         value: false
+      tier:
+        type: 'String'
+        value: 'epic'
+      powerUsage:
+        type: 'String'
+        value: ''
+      quantity:
+        type: 'Number'
+        value: null
+      maxQuantity:
+        type: 'Number'
+        value: null
   embeddedMacro:
     type: String
     label: Embedded Macro

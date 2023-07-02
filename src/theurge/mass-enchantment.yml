@@ -170,43 +170,73 @@ system:
     label: Sustain On
     value: null
   feats:
-    adventurer:
+    0:
       description:
-        type: String
-        label: Adventurer Feat
+        type: 'String'
         value: >-
           <p>Before rolling for targets, you can choose to make your mass magic
           attack a reckless one; add [[/r 1d3]] targets, but each time you miss
           deal [[@lvl]] damage to an ally engaged with the missed target, or a
           random nearby ally if none are engaged.</p>
       isActive:
-        type: Boolean
-        label: Active
+        type: 'Boolean'
         value: false
-    champion:
+      tier:
+        type: 'String'
+        value: 'adventurer'
+      powerUsage:
+        type: 'String'
+        value: ''
+      quantity:
+        type: 'Number'
+        value: null
+      maxQuantity:
+        type: 'Number'
+        value: null
+    1:
       description:
-        type: String
-        label: Champion Feat
+        type: 'String'
         value: >-
           <p>Once per battle, after rolling to determine the number of targets,
           you can add another target when you use this talent. In addition, one
           of the targets no longer has to be in the same group as the others,
           just within reach of your magic.</p>
       isActive:
-        type: Boolean
-        label: Active
+        type: 'Boolean'
         value: false
-    epic:
+      tier:
+        type: 'String'
+        value: 'champion'
+      powerUsage:
+        type: 'String'
+        value: 'once-per-battle'
+      quantity:
+        type: 'Number'
+        value: 1
+      maxQuantity:
+        type: 'Number'
+        value: 1
+    2:
       description:
-        type: String
-        label: Epic Feat
+        type: 'String'
         value: >-
           <p>Once per battle, ignore the damage die size penalty from this
           talent when you use it.</p>
       isActive:
-        type: Boolean
-        label: Active
+        type: 'Boolean'
         value: false
+      tier:
+        type: 'String'
+        value: 'epic'
+      powerUsage:
+        type: 'String'
+        value: 'once-per-battle'
+      quantity:
+        type: 'Number'
+        value: 1
+      maxQuantity:
+        type: 'Number'
+        value: 1
   embeddedMacro:
     type: String
     label: Embedded Macro

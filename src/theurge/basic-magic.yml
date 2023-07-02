@@ -176,33 +176,27 @@ system:
     label: Sustain On
     value: null
   feats:
-    adventurer:
+    0:
       description:
-        type: String
-        label: Adventurer Feat
+        type: 'String'
         value: >-
           <p>You can target far away enemies with your basic magic ranged
           attack, at a -2 penalty to the attack roll.</p>
       isActive:
-        type: Boolean
-        label: Active
+        type: 'Boolean'
         value: false
-    champion:
-      description:
-        type: String
-        label: Champion Feat
-      isActive:
-        type: Boolean
-        label: Active
-        value: false
-    epic:
-      description:
-        type: String
-        label: Epic Feat
-      isActive:
-        type: Boolean
-        label: Active
-        value: false
+      tier:
+        type: 'String'
+        value: 'adventurer'
+      powerUsage:
+        type: 'String'
+        value: ''
+      quantity:
+        type: 'Number'
+        value: null
+      maxQuantity:
+        type: 'Number'
+        value: null
   embeddedMacro:
     type: String
     label: Embedded Macro
