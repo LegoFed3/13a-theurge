@@ -1,234 +1,62 @@
-name: Gematria
-type: power
+_id: 458zFjPQxVjNeDay
+_key: '!items!458zFjPQxVjNeDay'
+effects: []
+flags: {}
+folder: ZSu7g3M1bLUYkqlo
 img: icons/magic/earth/strike-stone-stalactite-blood-red.webp
+name: Gematria
+ownership:
+  default: 0
+sort: 700000
 system:
-  name:
-    type: String
-    label: Name
-  description:
-    type: String
-    label: Description
-    value: ''
-  powerUsage:
-    type: String
-    label: Power Usage
-    value: daily
-  recharge:
-    type: Number
-    label: Recharge
-    value: 0
-  rechargeAttempts:
-    type: Number
-    label: Number of Recharges Attempted
-    value: 0
-  quantity:
-    type: Number
-    label: Uses
-    value: 1
-  maxQuantity:
-    type: Number
-    label: Max Uses
-    value: '[[max(@cha.mod, 1)]]'
-  embeddedMacro:
-    type: String
-    label: Embedded Macro
-    value: ''
-  sequencer:
-    ray: ''
-    self: ''
-    target: ''
-    reversed: false
-  powerUsageSecondary:
-    type: String
-    label: Secondary Power Usage
-    value: ''
-  quantitySecondary:
-    type: Number
-    label: Secondary Uses
-    value: null
-  maxQuantitySecondary:
-    type: String
-    label: Max Secondary Uses
-    value: ''
-  group:
-    type: String
-    label: Group
-    value: ''
-  powerSource:
-    type: String
-    label: Power Source
-    value: class
-  powerSourceName:
-    type: String
-    label: Power Source Name
-    value: Theurge
-  powerOriginName:
-    type: String
-    label: Power Original Name
-    value: Gematria
-  powerType:
-    type: String
-    label: Power Type
-    value: talent
-  powerLevel:
-    type: Number
-    label: Level
-    value: 1
   actionType:
-    type: String
     label: Action
+    type: String
     value: free
-  range:
-    type: String
-    label: Range
-    value: ''
-  trigger:
-    type: String
-    label: Trigger
-    value: ''
-  target:
-    type: String
-    label: Target
-    value: ''
   always:
-    type: String
     label: Always
+    type: String
     value: ''
   attack:
-    type: String
     label: Attack
-    value: ''
-  critMod:
     type: String
-    label: Attack
-    value: ''
-  hit:
-    type: String
-    label: Hit
-    value: ''
-  hitEven:
-    type: String
-    label: Natural Even Hit
-    value: ''
-  hitOdd:
-    type: String
-    label: Natural Odd Hit
-    value: ''
-  crit:
-    type: String
-    label: Crit
-    value: ''
-  miss:
-    type: String
-    label: Miss
-    value: ''
-  missEven:
-    type: String
-    label: Even Miss
-    value: ''
-  missOdd:
-    type: String
-    label: Odd Miss
-    value: ''
-  resources:
-    type: String
-    label: Resources
-    value: ''
-  castBroadEffect:
-    type: String
-    label: Cast for Broad Effect
-    value: ''
-  castPower:
-    type: String
-    label: Cast for Power
-    value: ''
-  sustainedEffect:
-    type: String
-    label: Opening and Sustained Effect
-    value: ''
-  finalVerse:
-    type: String
-    label: Final Verse
-    value: ''
-  special:
-    type: String
-    label: Special
-    value: ''
-  effect:
-    type: String
-    label: Effect
-    value: >-
-      <p>A number of times per full heal-up equal to your Charisma modifier
-      (minimum 1), you can as a free action add [[/r 1d6]] to one of your attack
-      rolls. Yes, this is supposed to be used after you roll, to hopefully let
-      you turn a miss into a hit. You can only add a single d6 per attack (e.g.
-      up to once per target, if you are using this multiple times in conjunction
-      with <em>Mass Enchantment</em>), and you can’t use it on a nat. 1.</p>
-  spellLevel2:
-    hide: false
-    type: String
-    label: 2nd Level Spell
-    value: ''
-  spellLevel3:
-    hide: false
-    type: String
-    label: 3rd Level Spell
-    value: ''
-  spellLevel4:
-    hide: false
-    type: String
-    label: 4th Level Spell
-    value: ''
-  spellLevel5:
-    hide: false
-    type: String
-    label: 5th Level Spell
-    value: ''
-  spellLevel6:
-    hide: false
-    type: String
-    label: 6th Level Spell
-    value: ''
-  spellLevel7:
-    hide: false
-    type: String
-    label: 7th Level Spell
-    value: ''
-  spellLevel8:
-    hide: false
-    type: String
-    label: 8th Level Spell
-    value: ''
-  spellLevel9:
-    hide: false
-    type: String
-    label: 9th Level Spell
-    value: ''
-  spellLevel10:
-    hide: false
-    type: String
-    label: 10th Level Spell
-    value: ''
-  spellLevel11:
-    hide: false
-    type: String
-    label: 11th Level Spell
-    value: ''
-  spellChain:
-    type: String
-    label: Chain Spell
     value: ''
   breathWeapon:
-    type: String
     label: Breath Weapon
-    value: ''
-  sustainOn:
-    type: Number
-    label: Sustain On
-    value: null
-  rollTable:
     type: String
-    label: Roll Table
+    value: ''
+  castBroadEffect:
+    label: Cast for Broad Effect
+    type: String
+    value: ''
+  castPower:
+    label: Cast for Power
+    type: String
+    value: ''
+  crit:
+    label: Crit
+    type: String
+    value: ''
+  critMod:
+    label: Attack
+    type: String
+    value: ''
+  description:
+    label: Description
+    type: String
+    value: ''
+  effect:
+    label: Effect
+    type: String
+    value: "<p>A number of times per full heal-up equal to your Charisma modifier\
+      \ (minimum 1), you can as a free action add [[/r 1d6]] to one of your attack\
+      \ rolls. Yes, this is supposed to be used after you roll, to hopefully let you\
+      \ turn a miss into a hit. You can only add a single d6 per attack (e.g. up to\
+      \ once per target, if you are using this multiple times in conjunction with\
+      \ <em>Mass Enchantment</em>), and you can\u2019t use it on a nat. 1.</p>"
+  embeddedMacro:
+    label: Embedded Macro
+    type: String
     value: ''
   feats:
     '0':
@@ -238,39 +66,38 @@ system:
       isActive:
         type: Boolean
         value: false
-      tier:
-        type: String
-        value: adventurer
+      maxQuantity:
+        type: Number
+        value: null
       powerUsage:
         type: String
         value: ''
       quantity:
         type: Number
         value: null
-      maxQuantity:
-        type: Number
-        value: null
+      tier:
+        type: String
+        value: adventurer
     '1':
       description:
         type: String
-        value: >-
-          <p>Once per battle, if the attack still misses, regain the use of this
+        value: <p>Once per battle, if the attack still misses, regain the use of this
           talent you just spent.</p>
       isActive:
         type: Boolean
         value: false
-      tier:
-        type: String
-        value: champion
+      maxQuantity:
+        type: Number
+        value: 1
       powerUsage:
         type: String
         value: once-per-battle
       quantity:
         type: Number
         value: 1
-      maxQuantity:
-        type: Number
-        value: 1
+      tier:
+        type: String
+        value: champion
     '2':
       description:
         type: String
@@ -278,34 +105,194 @@ system:
       isActive:
         type: Boolean
         value: false
-      tier:
-        type: String
-        value: epic
+      maxQuantity:
+        type: Number
+        value: null
       powerUsage:
         type: String
         value: ''
       quantity:
         type: Number
         value: null
-      maxQuantity:
-        type: Number
-        value: null
-effects: []
-flags: {}
-folder: ZSu7g3M1bLUYkqlo
-sort: 700000
-ownership:
-  default: 0
-_id: 458zFjPQxVjNeDay
-_stats:
-  coreVersion: '14.365'
-  systemId: archmage
-  systemVersion: 1.40.1
-  createdTime: 1786528529335
-  modifiedTime: 1786531119913
-  lastModifiedBy: GgIxHh9diOAqs1gz
-  compendiumSource: null
-  duplicateSource: null
-  exportSource: null
-_key: '!items!458zFjPQxVjNeDay'
-
+      tier:
+        type: String
+        value: epic
+  finalVerse:
+    label: Final Verse
+    type: String
+    value: ''
+  group:
+    label: Group
+    type: String
+    value: ''
+  hit:
+    label: Hit
+    type: String
+    value: ''
+  hitEven:
+    label: Natural Even Hit
+    type: String
+    value: ''
+  hitOdd:
+    label: Natural Odd Hit
+    type: String
+    value: ''
+  maxQuantity:
+    label: Max Uses
+    type: Number
+    value: '[[max(@cha.mod, 1)]]'
+  maxQuantitySecondary:
+    label: Max Secondary Uses
+    type: String
+    value: ''
+  miss:
+    label: Miss
+    type: String
+    value: ''
+  missEven:
+    label: Even Miss
+    type: String
+    value: ''
+  missOdd:
+    label: Odd Miss
+    type: String
+    value: ''
+  name:
+    label: Name
+    type: String
+  powerLevel:
+    label: Level
+    type: Number
+    value: 1
+  powerOriginName:
+    label: Power Original Name
+    type: String
+    value: Gematria
+  powerSource:
+    label: Power Source
+    type: String
+    value: class
+  powerSourceName:
+    label: Power Source Name
+    type: String
+    value: Theurge
+  powerType:
+    label: Power Type
+    type: String
+    value: talent
+  powerUsage:
+    label: Power Usage
+    type: String
+    value: daily
+  powerUsageSecondary:
+    label: Secondary Power Usage
+    type: String
+    value: ''
+  quantity:
+    label: Uses
+    type: Number
+    value: 1
+  quantitySecondary:
+    label: Secondary Uses
+    type: Number
+    value: null
+  range:
+    label: Range
+    type: String
+    value: ''
+  recharge:
+    label: Recharge
+    type: Number
+    value: 0
+  rechargeAttempts:
+    label: Number of Recharges Attempted
+    type: Number
+    value: 0
+  resources:
+    label: Resources
+    type: String
+    value: ''
+  rollTable:
+    label: Roll Table
+    type: String
+    value: ''
+  sequencer:
+    ray: ''
+    reversed: false
+    self: ''
+    target: ''
+  special:
+    label: Special
+    type: String
+    value: ''
+  spellChain:
+    label: Chain Spell
+    type: String
+    value: ''
+  spellLevel10:
+    hide: false
+    label: 10th Level Spell
+    type: String
+    value: ''
+  spellLevel11:
+    hide: false
+    label: 11th Level Spell
+    type: String
+    value: ''
+  spellLevel2:
+    hide: false
+    label: 2nd Level Spell
+    type: String
+    value: ''
+  spellLevel3:
+    hide: false
+    label: 3rd Level Spell
+    type: String
+    value: ''
+  spellLevel4:
+    hide: false
+    label: 4th Level Spell
+    type: String
+    value: ''
+  spellLevel5:
+    hide: false
+    label: 5th Level Spell
+    type: String
+    value: ''
+  spellLevel6:
+    hide: false
+    label: 6th Level Spell
+    type: String
+    value: ''
+  spellLevel7:
+    hide: false
+    label: 7th Level Spell
+    type: String
+    value: ''
+  spellLevel8:
+    hide: false
+    label: 8th Level Spell
+    type: String
+    value: ''
+  spellLevel9:
+    hide: false
+    label: 9th Level Spell
+    type: String
+    value: ''
+  sustainOn:
+    label: Sustain On
+    type: Number
+    value: null
+  sustainedEffect:
+    label: Opening and Sustained Effect
+    type: String
+    value: ''
+  target:
+    label: Target
+    type: String
+    value: ''
+  trigger:
+    label: Trigger
+    type: String
+    value: ''
+type: power

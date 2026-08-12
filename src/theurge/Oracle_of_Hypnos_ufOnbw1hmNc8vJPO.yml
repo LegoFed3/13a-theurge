@@ -1,334 +1,316 @@
-name: Oracle of Hypnos
-type: power
+_id: ufOnbw1hmNc8vJPO
+_key: '!items!ufOnbw1hmNc8vJPO'
+effects: []
+flags: {}
+folder: ZSu7g3M1bLUYkqlo
 img: icons/magic/light/orb-hands-humanoid-yellow.webp
+name: Oracle of Hypnos
+ownership:
+  default: 0
+sort: 1100000
 system:
-  name:
-    type: String
-    label: Name
-  description:
-    type: String
-    label: Description
-    value: ''
-  powerUsage:
-    type: String
-    label: Power Usage
-    value: once-per-battle
-  recharge:
-    type: Number
-    label: Recharge
-    value: 0
-  rechargeAttempts:
-    type: Number
-    label: Number of Recharges Attempted
-    value: 0
-  quantity:
-    type: Number
-    label: Uses
-    value: 1
-  maxQuantity:
-    type: Number
-    label: Max Uses
-    value: '1'
-  embeddedMacro:
-    type: String
-    label: Embedded Macro
-    value: ''
-  sequencer:
-    ray: ''
-    self: ''
-    target: ''
-    reversed: false
-  powerUsageSecondary:
-    type: String
-    label: Secondary Power Usage
-    value: daily
-  quantitySecondary:
-    type: Number
-    label: Secondary Uses
-    value: 1
-  maxQuantitySecondary:
-    type: String
-    label: Max Secondary Uses
-    value: '1'
-  group:
-    type: String
-    label: Group
-    value: ''
-  powerSource:
-    type: String
-    label: Power Source
-    value: class
-  powerSourceName:
-    type: String
-    label: Power Source Name
-    value: Theurge
-  powerOriginName:
-    type: String
-    label: Power Original Name
-    value: Oracle of Hypnos
-  powerType:
-    type: String
-    label: Power Type
-    value: talent
-  powerLevel:
-    type: Number
-    label: Level
-    value: 1
   actionType:
-    type: String
     label: Action
-    value: ''
-  range:
     type: String
-    label: Range
-    value: ''
-  trigger:
-    type: String
-    label: Trigger
-    value: ''
-  target:
-    type: String
-    label: Target
     value: ''
   always:
-    type: String
     label: Always
+    type: String
     value: ''
   attack:
-    type: String
     label: Attack
-    value: ''
-  critMod:
     type: String
-    label: Attack
-    value: ''
-  hit:
-    type: String
-    label: Hit
-    value: ''
-  hitEven:
-    type: String
-    label: Natural Even Hit
-    value: ''
-  hitOdd:
-    type: String
-    label: Natural Odd Hit
-    value: ''
-  crit:
-    type: String
-    label: Crit
-    value: ''
-  miss:
-    type: String
-    label: Miss
-    value: ''
-  missEven:
-    type: String
-    label: Even Miss
-    value: ''
-  missOdd:
-    type: String
-    label: Odd Miss
-    value: ''
-  resources:
-    type: String
-    label: Resources
-    value: ''
-  castBroadEffect:
-    type: String
-    label: Cast for Broad Effect
-    value: ''
-  castPower:
-    type: String
-    label: Cast for Power
-    value: ''
-  sustainedEffect:
-    type: String
-    label: Opening and Sustained Effect
-    value: ''
-  finalVerse:
-    type: String
-    label: Final Verse
-    value: ''
-  special:
-    type: String
-    label: Special
-    value: ''
-  effect:
-    type: String
-    label: Effect
-    value: >-
-      <p>Once per full heal up, your scrying magic or connection to the gods
-      gives you a vision of the future. When you or one of your nearby allies
-      spends an Icon advantage, you can predict the upcoming complications and
-      avert them: the roll to avoid complications automatically succeeds (2e) or
-      a 5 turns into a (trouble-free) 6 (1e).</p><p>Alternatively, you can ask
-      the GM to make a blind normal save (11+) so that you do not see the
-      result: on a success, you receive a prophecy/vision that truthfully
-      answers a question you ask of the GM that you could conceivably have
-      scryed. On a failure, you may receive no answer, just gibberish, or
-      possibly the GM might lie.</p><p>In addition, once per battle you can
-      declare that you had a vision of an attack that is about to be rolled
-      which includes you as a target, then roll a normal save (11+); on a
-      success you (and only you) had just enough foresight to avoid the attack
-      entirely, it has no effect against you if it makes sense at all.</p>
-  spellLevel2:
-    hide: false
-    type: String
-    label: 2nd Level Spell
-    value: ''
-  spellLevel3:
-    hide: false
-    type: String
-    label: 3rd Level Spell
-    value: ''
-  spellLevel4:
-    hide: false
-    type: String
-    label: 4th Level Spell
-    value: ''
-  spellLevel5:
-    hide: false
-    type: String
-    label: 5th Level Spell
-    value: ''
-  spellLevel6:
-    hide: false
-    type: String
-    label: 6th Level Spell
-    value: ''
-  spellLevel7:
-    hide: false
-    type: String
-    label: 7th Level Spell
-    value: ''
-  spellLevel8:
-    hide: false
-    type: String
-    label: 8th Level Spell
-    value: ''
-  spellLevel9:
-    hide: false
-    type: String
-    label: 9th Level Spell
-    value: ''
-  spellLevel10:
-    hide: false
-    type: String
-    label: 10th Level Spell
-    value: ''
-  spellLevel11:
-    hide: false
-    type: String
-    label: 11th Level Spell
-    value: ''
-  spellChain:
-    type: String
-    label: Chain Spell
     value: ''
   breathWeapon:
-    type: String
     label: Breath Weapon
-    value: ''
-  sustainOn:
-    type: Number
-    label: Sustain On
-    value: null
-  rollTable:
     type: String
-    label: Roll Table
+    value: ''
+  castBroadEffect:
+    label: Cast for Broad Effect
+    type: String
+    value: ''
+  castPower:
+    label: Cast for Power
+    type: String
+    value: ''
+  crit:
+    label: Crit
+    type: String
+    value: ''
+  critMod:
+    label: Attack
+    type: String
+    value: ''
+  description:
+    label: Description
+    type: String
+    value: ''
+  effect:
+    label: Effect
+    type: String
+    value: '<p>Once per full heal up, your scrying magic or connection to the gods
+      gives you a vision of the future. When you or one of your nearby allies spends
+      an Icon advantage, you can predict the upcoming complications and avert them:
+      the roll to avoid complications automatically succeeds (2e) or a 5 turns into
+      a (trouble-free) 6 (1e).</p><p>Alternatively, you can ask the GM to make a blind
+      normal save (11+) so that you do not see the result: on a success, you receive
+      a prophecy/vision that truthfully answers a question you ask of the GM that
+      you could conceivably have scryed. On a failure, you may receive no answer,
+      just gibberish, or possibly the GM might lie.</p><p>In addition, once per battle
+      you can declare that you had a vision of an attack that is about to be rolled
+      which includes you as a target, then roll a normal save (11+); on a success
+      you (and only you) had just enough foresight to avoid the attack entirely, it
+      has no effect against you if it makes sense at all.</p>'
+  embeddedMacro:
+    label: Embedded Macro
+    type: String
     value: ''
   feats:
     '0':
       description:
         type: String
-        value: >-
-          <p>You can use the arc ability of this talent twice per full heal
-          up.</p>
+        value: <p>You can use the arc ability of this talent twice per full heal up.</p>
       isActive:
         type: Boolean
         value: false
+      maxQuantity:
+        type: Number
+        value: null
+      powerUsage:
+        type: String
+        value: ''
+      quantity:
+        type: Number
+        value: null
       tier:
         type: String
         value: adventurer
-      powerUsage:
-        type: String
-        value: ''
-      quantity:
-        type: Number
-        value: null
-      maxQuantity:
-        type: Number
-        value: null
     '1':
       description:
         type: String
-        value: >-
-          <p>Your foresight becomes precocious enough that now you can warn an
-          ally as an interrupt action, letting them avoid an attack instead of
-          you (the attack needs to include them among its targets, but not
-          necessarily you as well).</p>
+        value: <p>Your foresight becomes precocious enough that now you can warn an
+          ally as an interrupt action, letting them avoid an attack instead of you
+          (the attack needs to include them among its targets, but not necessarily
+          you as well).</p>
       isActive:
         type: Boolean
         value: false
-      tier:
-        type: String
-        value: champion
+      maxQuantity:
+        type: Number
+        value: null
       powerUsage:
         type: String
         value: ''
       quantity:
         type: Number
         value: null
-      maxQuantity:
-        type: Number
-        value: null
+      tier:
+        type: String
+        value: champion
     '2':
       description:
         type: String
-        value: >-
-          <p>Once per full heal up gain foreknowledge about an impending fumble
-          by you or one of your allies. After you or one of your allies rolls a
-          nat. 1 you can declare you had foreseen this and warned against that
-          course of action; the forewarned therefore never attempted whatever
-          triggered this ability (or, if they decide they did anyway, nothing
-          happens but you don’t expend the use of this feat), but must take a
-          different course of action. For example,  if they fumbled a skill
-          check they must attempt something different using a different
-          background or do nothing if it's an option; if they fumbled an attack
-          they cannot attack the same target or attempt to use the same power or
-          spell, etc.</p>
+        value: "<p>Once per full heal up gain foreknowledge about an impending fumble\
+          \ by you or one of your allies. After you or one of your allies rolls a\
+          \ nat. 1 you can declare you had foreseen this and warned against that course\
+          \ of action; the forewarned therefore never attempted whatever triggered\
+          \ this ability (or, if they decide they did anyway, nothing happens but\
+          \ you don\u2019t expend the use of this feat), but must take a different\
+          \ course of action. For example,  if they fumbled a skill check they must\
+          \ attempt something different using a different background or do nothing\
+          \ if it's an option; if they fumbled an attack they cannot attack the same\
+          \ target or attempt to use the same power or spell, etc.</p>"
       isActive:
         type: Boolean
         value: false
-      tier:
-        type: String
-        value: epic
+      maxQuantity:
+        type: Number
+        value: 1
       powerUsage:
         type: String
         value: daily
       quantity:
         type: Number
         value: 1
-      maxQuantity:
-        type: Number
-        value: 1
-effects: []
-flags: {}
-folder: ZSu7g3M1bLUYkqlo
-sort: 1100000
-ownership:
-  default: 0
-_id: ufOnbw1hmNc8vJPO
-_stats:
-  coreVersion: '14.365'
-  systemId: archmage
-  systemVersion: 1.40.1
-  createdTime: 1786530221377
-  modifiedTime: 1786531273623
-  lastModifiedBy: GgIxHh9diOAqs1gz
-  compendiumSource: null
-  duplicateSource: null
-  exportSource: null
-_key: '!items!ufOnbw1hmNc8vJPO'
-
+      tier:
+        type: String
+        value: epic
+  finalVerse:
+    label: Final Verse
+    type: String
+    value: ''
+  group:
+    label: Group
+    type: String
+    value: ''
+  hit:
+    label: Hit
+    type: String
+    value: ''
+  hitEven:
+    label: Natural Even Hit
+    type: String
+    value: ''
+  hitOdd:
+    label: Natural Odd Hit
+    type: String
+    value: ''
+  maxQuantity:
+    label: Max Uses
+    type: Number
+    value: '1'
+  maxQuantitySecondary:
+    label: Max Secondary Uses
+    type: String
+    value: '1'
+  miss:
+    label: Miss
+    type: String
+    value: ''
+  missEven:
+    label: Even Miss
+    type: String
+    value: ''
+  missOdd:
+    label: Odd Miss
+    type: String
+    value: ''
+  name:
+    label: Name
+    type: String
+  powerLevel:
+    label: Level
+    type: Number
+    value: 1
+  powerOriginName:
+    label: Power Original Name
+    type: String
+    value: Oracle of Hypnos
+  powerSource:
+    label: Power Source
+    type: String
+    value: class
+  powerSourceName:
+    label: Power Source Name
+    type: String
+    value: Theurge
+  powerType:
+    label: Power Type
+    type: String
+    value: talent
+  powerUsage:
+    label: Power Usage
+    type: String
+    value: once-per-battle
+  powerUsageSecondary:
+    label: Secondary Power Usage
+    type: String
+    value: daily
+  quantity:
+    label: Uses
+    type: Number
+    value: 1
+  quantitySecondary:
+    label: Secondary Uses
+    type: Number
+    value: 1
+  range:
+    label: Range
+    type: String
+    value: ''
+  recharge:
+    label: Recharge
+    type: Number
+    value: 0
+  rechargeAttempts:
+    label: Number of Recharges Attempted
+    type: Number
+    value: 0
+  resources:
+    label: Resources
+    type: String
+    value: ''
+  rollTable:
+    label: Roll Table
+    type: String
+    value: ''
+  sequencer:
+    ray: ''
+    reversed: false
+    self: ''
+    target: ''
+  special:
+    label: Special
+    type: String
+    value: ''
+  spellChain:
+    label: Chain Spell
+    type: String
+    value: ''
+  spellLevel10:
+    hide: false
+    label: 10th Level Spell
+    type: String
+    value: ''
+  spellLevel11:
+    hide: false
+    label: 11th Level Spell
+    type: String
+    value: ''
+  spellLevel2:
+    hide: false
+    label: 2nd Level Spell
+    type: String
+    value: ''
+  spellLevel3:
+    hide: false
+    label: 3rd Level Spell
+    type: String
+    value: ''
+  spellLevel4:
+    hide: false
+    label: 4th Level Spell
+    type: String
+    value: ''
+  spellLevel5:
+    hide: false
+    label: 5th Level Spell
+    type: String
+    value: ''
+  spellLevel6:
+    hide: false
+    label: 6th Level Spell
+    type: String
+    value: ''
+  spellLevel7:
+    hide: false
+    label: 7th Level Spell
+    type: String
+    value: ''
+  spellLevel8:
+    hide: false
+    label: 8th Level Spell
+    type: String
+    value: ''
+  spellLevel9:
+    hide: false
+    label: 9th Level Spell
+    type: String
+    value: ''
+  sustainOn:
+    label: Sustain On
+    type: Number
+    value: null
+  sustainedEffect:
+    label: Opening and Sustained Effect
+    type: String
+    value: ''
+  target:
+    label: Target
+    type: String
+    value: ''
+  trigger:
+    label: Trigger
+    type: String
+    value: ''
+type: power

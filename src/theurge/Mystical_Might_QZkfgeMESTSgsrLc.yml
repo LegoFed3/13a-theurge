@@ -1,342 +1,317 @@
-name: Mystical Might
-type: power
-img: icons/magic/fire/elemental-fire-humanoid.webp
-system:
-  name:
-    type: String
-    label: Name
-  description:
-    type: String
-    label: Description
-    value: ''
-  powerUsage:
-    type: String
-    label: Power Usage
-    value: daily
-  recharge:
-    type: Number
-    label: Recharge
-    value: 0
-  rechargeAttempts:
-    type: Number
-    label: Number of Recharges Attempted
-    value: 0
-  quantity:
-    type: Number
-    label: Uses
-    value: 1
-  maxQuantity:
-    type: Number
-    label: Max Uses
-    value: '[[max(@cha.mod, 1)]]'
-  embeddedMacro:
-    type: String
-    label: Embedded Macro
-    value: ''
-  sequencer:
-    ray: ''
-    self: ''
-    target: ''
-    reversed: false
-  powerUsageSecondary:
-    type: String
-    label: Secondary Power Usage
-    value: ''
-  quantitySecondary:
-    type: Number
-    label: Secondary Uses
+_id: QZkfgeMESTSgsrLc
+_key: '!items!QZkfgeMESTSgsrLc'
+effects:
+- _id: SGF1f4jFpJnoECEc
+  _key: '!items.effects!QZkfgeMESTSgsrLc.SGF1f4jFpJnoECEc'
+  description: ''
+  disabled: false
+  duration:
+    expired: false
+    expiry: null
+    units: seconds
     value: null
-  maxQuantitySecondary:
-    type: String
-    label: Max Secondary Uses
-    value: ''
-  group:
-    type: String
-    label: Group
-    value: ''
-  powerSource:
-    type: String
-    label: Power Source
-    value: class
-  powerSourceName:
-    type: String
-    label: Power Source Name
-    value: Theurge
-  powerOriginName:
-    type: String
-    label: Power Original Name
-    value: Mystical Might
-  powerType:
-    type: String
-    label: Power Type
-    value: talent
-  powerLevel:
-    type: Number
-    label: Level
-    value: 1
+  flags:
+    archmage:
+      duration: EndOfCombat
+      stacksAlways: false
+    core:
+      sheetClass: core.ActiveEffectConfig
+  folder: null
+  img: icons/magic/fire/elemental-fire-humanoid.webp
+  name: Mystical Might
+  origin: Compendium.13a-theurge.theurge.Item.QZkfgeMESTSgsrLc
+  showIcon: 1
+  sort: 0
+  start: null
+  statuses: []
+  system:
+    changes:
+    - key: system.attributes.weapon.melee.dice
+      phase: initial
+      priority: null
+      type: override
+      value: d8
+    - key: system.attributes.weapon.raged.dice
+      phase: initial
+      priority: null
+      type: override
+      value: d12
+  tint: '#ffffff'
+  transfer: true
+  type: base
+flags: {}
+folder: ZSu7g3M1bLUYkqlo
+img: icons/magic/fire/elemental-fire-humanoid.webp
+name: Mystical Might
+ownership:
+  default: 0
+sort: 1000000
+system:
   actionType:
-    type: String
     label: Action
+    type: String
     value: quick
-  range:
-    type: String
-    label: Range
-    value: ''
-  trigger:
-    type: String
-    label: Trigger
-    value: ''
-  target:
-    type: String
-    label: Target
-    value: ''
   always:
-    type: String
     label: Always
+    type: String
     value: ''
   attack:
-    type: String
     label: Attack
-    value: ''
-  critMod:
     type: String
-    label: Attack
-    value: ''
-  hit:
-    type: String
-    label: Hit
-    value: ''
-  hitEven:
-    type: String
-    label: Natural Even Hit
-    value: ''
-  hitOdd:
-    type: String
-    label: Natural Odd Hit
-    value: ''
-  crit:
-    type: String
-    label: Crit
-    value: ''
-  miss:
-    type: String
-    label: Miss
-    value: ''
-  missEven:
-    type: String
-    label: Even Miss
-    value: ''
-  missOdd:
-    type: String
-    label: Odd Miss
-    value: ''
-  resources:
-    type: String
-    label: Resources
-    value: '-1 Recovery'
-  castBroadEffect:
-    type: String
-    label: Cast for Broad Effect
-    value: ''
-  castPower:
-    type: String
-    label: Cast for Power
-    value: ''
-  sustainedEffect:
-    type: String
-    label: Opening and Sustained Effect
-    value: ''
-  finalVerse:
-    type: String
-    label: Final Verse
-    value: ''
-  special:
-    type: String
-    label: Special
-    value: ''
-  effect:
-    type: String
-    label: Effect
-    value: >-
-      <p>A number of times per full heal up equal to your Charisma modifier
-      (minimum 1), you can as a free action on your turn spend a recovery
-      without regaining any hit points to increase the damage die size of your
-      magic basic attacks by two (usually d8 to d12, or d4 to d8 for melee) for
-      the rest of the battle.</p>
-  spellLevel2:
-    hide: false
-    type: String
-    label: 2nd Level Spell
-    value: ''
-  spellLevel3:
-    hide: false
-    type: String
-    label: 3rd Level Spell
-    value: ''
-  spellLevel4:
-    hide: false
-    type: String
-    label: 4th Level Spell
-    value: ''
-  spellLevel5:
-    hide: false
-    type: String
-    label: 5th Level Spell
-    value: ''
-  spellLevel6:
-    hide: false
-    type: String
-    label: 6th Level Spell
-    value: ''
-  spellLevel7:
-    hide: false
-    type: String
-    label: 7th Level Spell
-    value: ''
-  spellLevel8:
-    hide: false
-    type: String
-    label: 8th Level Spell
-    value: ''
-  spellLevel9:
-    hide: false
-    type: String
-    label: 9th Level Spell
-    value: ''
-  spellLevel10:
-    hide: false
-    type: String
-    label: 10th Level Spell
-    value: ''
-  spellLevel11:
-    hide: false
-    type: String
-    label: 11th Level Spell
-    value: ''
-  spellChain:
-    type: String
-    label: Chain Spell
     value: ''
   breathWeapon:
-    type: String
     label: Breath Weapon
-    value: ''
-  sustainOn:
-    type: Number
-    label: Sustain On
-    value: null
-  rollTable:
     type: String
-    label: Roll Table
+    value: ''
+  castBroadEffect:
+    label: Cast for Broad Effect
+    type: String
+    value: ''
+  castPower:
+    label: Cast for Power
+    type: String
+    value: ''
+  crit:
+    label: Crit
+    type: String
+    value: ''
+  critMod:
+    label: Attack
+    type: String
+    value: ''
+  description:
+    label: Description
+    type: String
+    value: ''
+  effect:
+    label: Effect
+    type: String
+    value: <p>A number of times per full heal up equal to your Charisma modifier (minimum
+      1), you can as a free action on your turn spend a recovery without regaining
+      any hit points to increase the damage die size of your magic basic attacks by
+      two (usually d8 to d12, or d4 to d8 for melee) for the rest of the battle.</p>
+  embeddedMacro:
+    label: Embedded Macro
+    type: String
     value: ''
   feats:
     '0':
       description:
         type: String
-        value: >-
-          <p>Once per full heal up you can activate this talent without spending
+        value: <p>Once per full heal up you can activate this talent without spending
           a recovery.</p>
       isActive:
         type: Boolean
         value: false
+      maxQuantity:
+        type: Number
+        value: 1
+      powerUsage:
+        type: String
+        value: daily
+      quantity:
+        type: Number
+        value: 1
       tier:
         type: String
         value: adventurer
-      powerUsage:
-        type: String
-        value: daily
-      quantity:
-        type: Number
-        value: 1
-      maxQuantity:
-        type: Number
-        value: 1
     '1':
       description:
         type: String
-        value: >-
-          <p>(Requires adventurer) once per full heal up, as a free action when
-          the E.D. is 3+, you can spend a recovery to make your next magic
-          attack deal double damage instead of healing.</p>
+        value: <p>(Requires adventurer) once per full heal up, as a free action when
+          the E.D. is 3+, you can spend a recovery to make your next magic attack
+          deal double damage instead of healing.</p>
       isActive:
         type: Boolean
         value: false
-      tier:
-        type: String
-        value: champion
+      maxQuantity:
+        type: Number
+        value: 1
       powerUsage:
         type: String
         value: daily
       quantity:
         type: Number
         value: 1
-      maxQuantity:
-        type: Number
-        value: 1
-effects:
-  - img: icons/magic/fire/elemental-fire-humanoid.webp
-    origin: Compendium.13a-theurge.theurge.Item.QZkfgeMESTSgsrLc
-    name: Mystical Might
-    _id: SGF1f4jFpJnoECEc
-    type: base
-    system:
-      changes:
-        - key: system.attributes.weapon.melee.dice
-          type: override
-          value: d8
-          phase: initial
-          priority: null
-        - key: system.attributes.weapon.raged.dice
-          type: override
-          value: d12
-          phase: initial
-          priority: null
-    disabled: false
-    start: null
-    duration:
-      value: null
-      units: seconds
-      expiry: null
-      expired: false
-    description: ''
-    tint: '#ffffff'
-    transfer: true
-    statuses: []
-    showIcon: 1
-    folder: null
-    sort: 0
-    flags:
-      archmage:
-        stacksAlways: false
-        duration: EndOfCombat
-      core:
-        sheetClass: core.ActiveEffectConfig
-    _stats:
-      coreVersion: '14.365'
-      systemId: archmage
-      systemVersion: 1.40.1
-      createdTime: 1786529821385
-      modifiedTime: 1786529942257
-      lastModifiedBy: GgIxHh9diOAqs1gz
-      compendiumSource: null
-      duplicateSource: null
-      exportSource: null
-    _key: '!items.effects!QZkfgeMESTSgsrLc.SGF1f4jFpJnoECEc'
-flags: {}
-folder: ZSu7g3M1bLUYkqlo
-sort: 1000000
-ownership:
-  default: 0
-_id: QZkfgeMESTSgsrLc
-_stats:
-  coreVersion: '14.365'
-  systemId: archmage
-  systemVersion: 1.40.1
-  createdTime: 1786529660869
-  modifiedTime: 1786531119913
-  lastModifiedBy: GgIxHh9diOAqs1gz
-  compendiumSource: null
-  duplicateSource: null
-  exportSource: null
-_key: '!items!QZkfgeMESTSgsrLc'
-
+      tier:
+        type: String
+        value: champion
+  finalVerse:
+    label: Final Verse
+    type: String
+    value: ''
+  group:
+    label: Group
+    type: String
+    value: ''
+  hit:
+    label: Hit
+    type: String
+    value: ''
+  hitEven:
+    label: Natural Even Hit
+    type: String
+    value: ''
+  hitOdd:
+    label: Natural Odd Hit
+    type: String
+    value: ''
+  maxQuantity:
+    label: Max Uses
+    type: Number
+    value: '[[max(@cha.mod, 1)]]'
+  maxQuantitySecondary:
+    label: Max Secondary Uses
+    type: String
+    value: ''
+  miss:
+    label: Miss
+    type: String
+    value: ''
+  missEven:
+    label: Even Miss
+    type: String
+    value: ''
+  missOdd:
+    label: Odd Miss
+    type: String
+    value: ''
+  name:
+    label: Name
+    type: String
+  powerLevel:
+    label: Level
+    type: Number
+    value: 1
+  powerOriginName:
+    label: Power Original Name
+    type: String
+    value: Mystical Might
+  powerSource:
+    label: Power Source
+    type: String
+    value: class
+  powerSourceName:
+    label: Power Source Name
+    type: String
+    value: Theurge
+  powerType:
+    label: Power Type
+    type: String
+    value: talent
+  powerUsage:
+    label: Power Usage
+    type: String
+    value: daily
+  powerUsageSecondary:
+    label: Secondary Power Usage
+    type: String
+    value: ''
+  quantity:
+    label: Uses
+    type: Number
+    value: 1
+  quantitySecondary:
+    label: Secondary Uses
+    type: Number
+    value: null
+  range:
+    label: Range
+    type: String
+    value: ''
+  recharge:
+    label: Recharge
+    type: Number
+    value: 0
+  rechargeAttempts:
+    label: Number of Recharges Attempted
+    type: Number
+    value: 0
+  resources:
+    label: Resources
+    type: String
+    value: -1 Recovery
+  rollTable:
+    label: Roll Table
+    type: String
+    value: ''
+  sequencer:
+    ray: ''
+    reversed: false
+    self: ''
+    target: ''
+  special:
+    label: Special
+    type: String
+    value: ''
+  spellChain:
+    label: Chain Spell
+    type: String
+    value: ''
+  spellLevel10:
+    hide: false
+    label: 10th Level Spell
+    type: String
+    value: ''
+  spellLevel11:
+    hide: false
+    label: 11th Level Spell
+    type: String
+    value: ''
+  spellLevel2:
+    hide: false
+    label: 2nd Level Spell
+    type: String
+    value: ''
+  spellLevel3:
+    hide: false
+    label: 3rd Level Spell
+    type: String
+    value: ''
+  spellLevel4:
+    hide: false
+    label: 4th Level Spell
+    type: String
+    value: ''
+  spellLevel5:
+    hide: false
+    label: 5th Level Spell
+    type: String
+    value: ''
+  spellLevel6:
+    hide: false
+    label: 6th Level Spell
+    type: String
+    value: ''
+  spellLevel7:
+    hide: false
+    label: 7th Level Spell
+    type: String
+    value: ''
+  spellLevel8:
+    hide: false
+    label: 8th Level Spell
+    type: String
+    value: ''
+  spellLevel9:
+    hide: false
+    label: 9th Level Spell
+    type: String
+    value: ''
+  sustainOn:
+    label: Sustain On
+    type: Number
+    value: null
+  sustainedEffect:
+    label: Opening and Sustained Effect
+    type: String
+    value: ''
+  target:
+    label: Target
+    type: String
+    value: ''
+  trigger:
+    label: Trigger
+    type: String
+    value: ''
+type: power

@@ -1,358 +1,340 @@
-name: Conjurer
-type: power
+_id: mNj9b5w7H85yFIRt
+_key: '!items!mNj9b5w7H85yFIRt'
+effects: []
+flags: {}
+folder: ZSu7g3M1bLUYkqlo
 img: icons/creatures/magical/spirit-undead-ghost-blue.webp
+name: Conjurer
+ownership:
+  default: 0
+sort: 1600000
 system:
-  name:
-    type: String
-    label: Name
-  description:
-    type: String
-    label: Description
-    value: ''
-  powerUsage:
-    type: String
-    label: Power Usage
-    value: once-per-battle
-  recharge:
-    type: Number
-    label: Recharge
-    value: 0
-  rechargeAttempts:
-    type: Number
-    label: Number of Recharges Attempted
-    value: 0
-  quantity:
-    type: Number
-    label: Uses
-    value: 1
-  maxQuantity:
-    type: Number
-    label: Max Uses
-    value: '1'
-  embeddedMacro:
-    type: String
-    label: Embedded Macro
-    value: ''
-  sequencer:
-    ray: ''
-    self: ''
-    target: ''
-    reversed: false
-  powerUsageSecondary:
-    type: String
-    label: Secondary Power Usage
-    value: ''
-  quantitySecondary:
-    type: Number
-    label: Secondary Uses
-    value: null
-  maxQuantitySecondary:
-    type: String
-    label: Max Secondary Uses
-    value: ''
-  group:
-    type: String
-    label: Group
-    value: ''
-  powerSource:
-    type: String
-    label: Power Source
-    value: class
-  powerSourceName:
-    type: String
-    label: Power Source Name
-    value: Theurge
-  powerOriginName:
-    type: String
-    label: Power Original Name
-    value: Conjurer
-  powerType:
-    type: String
-    label: Power Type
-    value: talent
-  powerLevel:
-    type: Number
-    label: Level
-    value: 1
   actionType:
-    type: String
     label: Action
+    type: String
     value: standard
-  range:
-    type: String
-    label: Range
-    value: ''
-  trigger:
-    type: String
-    label: Trigger
-    value: ''
-  target:
-    type: String
-    label: Target
-    value: ''
   always:
-    type: String
     label: Always
+    type: String
     value: ''
   attack:
-    type: String
     label: Attack
-    value: ''
-  critMod:
     type: String
-    label: Attack
-    value: ''
-  hit:
-    type: String
-    label: Hit
-    value: ''
-  hitEven:
-    type: String
-    label: Natural Even Hit
-    value: ''
-  hitOdd:
-    type: String
-    label: Natural Odd Hit
-    value: ''
-  crit:
-    type: String
-    label: Crit
-    value: ''
-  miss:
-    type: String
-    label: Miss
-    value: ''
-  missEven:
-    type: String
-    label: Even Miss
-    value: ''
-  missOdd:
-    type: String
-    label: Odd Miss
-    value: ''
-  resources:
-    type: String
-    label: Resources
-    value: ''
-  castBroadEffect:
-    type: String
-    label: Cast for Broad Effect
-    value: ''
-  castPower:
-    type: String
-    label: Cast for Power
-    value: ''
-  sustainedEffect:
-    type: String
-    label: Opening and Sustained Effect
-    value: ''
-  finalVerse:
-    type: String
-    label: Final Verse
-    value: ''
-  special:
-    type: String
-    label: Special
-    value: ''
-  effect:
-    type: String
-    label: Effect
-    value: >-
-      <p>Once per battle or scene you can use a standard action to summon a
-      spirit or elemental next to you. This action provokes opportunity attacks
-      and can’t be used while hindered, like a ranged spell would. Describe your
-      summon in any way that makes sense for your character. The summon has your
-      defenses and no hit points, and it dissipates harmlessly if it takes any
-      damage or at the end of the battle or scene, whichever comes first.
-      </p><p>The summon counts as your ally if it's convenient, but can’t be
-      healed. It uses your actions, and generally moves when you do to stay next
-      to its conjurer. As an interrupt action, you can have your summon
-      intercept a foe moving to engage you, stopping its movement and
-      redirecting its attack to itself (it might be destroyed, but it stopped
-      that foe’s movement and took one for the team, so it was hardly useless).
-      Alternatively, as a quick action on your turn (including the turn you
-      summoned it on) you can make an easy save to attempt to command your
-      summon to attack a nearby enemy (and move to engage said enemy in the
-      process). On a success it does so, using your own magic attacks (that
-      means it gets to use the E.D. and inherits your magic item bonuses, but
-      not any bonus or penalty currently affecting you but not it). It can even
-      use your other talents, just as if you were attacking yourself, but note
-      that any uses it consumes count against your totals. You might even be
-      able to order your summon to move and attempt to accomplish something
-      other than attacking, but it will probably require a skill check to
-      achieve anything worthwhile (use that in place of the save). </p>
-  spellLevel2:
-    hide: false
-    type: String
-    label: 2nd Level Spell
-    value: ''
-  spellLevel3:
-    hide: false
-    type: String
-    label: 3rd Level Spell
-    value: ''
-  spellLevel4:
-    hide: false
-    type: String
-    label: 4th Level Spell
-    value: ''
-  spellLevel5:
-    hide: false
-    type: String
-    label: 5th Level Spell
-    value: ''
-  spellLevel6:
-    hide: false
-    type: String
-    label: 6th Level Spell
-    value: ''
-  spellLevel7:
-    hide: false
-    type: String
-    label: 7th Level Spell
-    value: ''
-  spellLevel8:
-    hide: false
-    type: String
-    label: 8th Level Spell
-    value: ''
-  spellLevel9:
-    hide: false
-    type: String
-    label: 9th Level Spell
-    value: ''
-  spellLevel10:
-    hide: false
-    type: String
-    label: 10th Level Spell
-    value: ''
-  spellLevel11:
-    hide: false
-    type: String
-    label: 11th Level Spell
-    value: ''
-  spellChain:
-    type: String
-    label: Chain Spell
     value: ''
   breathWeapon:
-    type: String
     label: Breath Weapon
-    value: ''
-  sustainOn:
-    type: Number
-    label: Sustain On
-    value: null
-  rollTable:
     type: String
-    label: Roll Table
+    value: ''
+  castBroadEffect:
+    label: Cast for Broad Effect
+    type: String
+    value: ''
+  castPower:
+    label: Cast for Power
+    type: String
+    value: ''
+  crit:
+    label: Crit
+    type: String
+    value: ''
+  critMod:
+    label: Attack
+    type: String
+    value: ''
+  description:
+    label: Description
+    type: String
+    value: ''
+  effect:
+    label: Effect
+    type: String
+    value: "<p>Once per battle or scene you can use a standard action to summon a\
+      \ spirit or elemental next to you. This action provokes opportunity attacks\
+      \ and can\u2019t be used while hindered, like a ranged spell would. Describe\
+      \ your summon in any way that makes sense for your character. The summon has\
+      \ your defenses and no hit points, and it dissipates harmlessly if it takes\
+      \ any damage or at the end of the battle or scene, whichever comes first. </p><p>The\
+      \ summon counts as your ally if it's convenient, but can\u2019t be healed. It\
+      \ uses your actions, and generally moves when you do to stay next to its conjurer.\
+      \ As an interrupt action, you can have your summon intercept a foe moving to\
+      \ engage you, stopping its movement and redirecting its attack to itself (it\
+      \ might be destroyed, but it stopped that foe\u2019s movement and took one for\
+      \ the team, so it was hardly useless). Alternatively, as a quick action on your\
+      \ turn (including the turn you summoned it on) you can make an easy save to\
+      \ attempt to command your summon to attack a nearby enemy (and move to engage\
+      \ said enemy in the process). On a success it does so, using your own magic\
+      \ attacks (that means it gets to use the E.D. and inherits your magic item bonuses,\
+      \ but not any bonus or penalty currently affecting you but not it). It can even\
+      \ use your other talents, just as if you were attacking yourself, but note that\
+      \ any uses it consumes count against your totals. You might even be able to\
+      \ order your summon to move and attempt to accomplish something other than attacking,\
+      \ but it will probably require a skill check to achieve anything worthwhile\
+      \ (use that in place of the save). </p>"
+  embeddedMacro:
+    label: Embedded Macro
+    type: String
     value: ''
   feats:
     '0':
       description:
         type: String
-        value: >-
-          <p>(Explosive Unsummoning) When your summon is destroyed by an enemy
-          attack, it deals [[max(@str.dmg, @con.dmg, @dex.dmg, @int.dmg,
-          @wis.dmg, @cha.dmg)]] damage of a type that makes sense to its
-          attacker.</p>
+        value: <p>(Explosive Unsummoning) When your summon is destroyed by an enemy
+          attack, it deals [[max(@str.dmg, @con.dmg, @dex.dmg, @int.dmg, @wis.dmg,
+          @cha.dmg)]] damage of a type that makes sense to its attacker.</p>
       isActive:
         type: Boolean
         value: false
-      tier:
-        type: String
-        value: adventurer
+      maxQuantity:
+        type: Number
+        value: null
       powerUsage:
         type: String
         value: ''
       quantity:
         type: Number
         value: null
-      maxQuantity:
-        type: Number
-        value: null
+      tier:
+        type: String
+        value: adventurer
     '1':
       description:
         type: String
-        value: >-
-          <p>(Disruptive Summon) Once per battle, when your summon hits a target
-          with a natural even hit it can either make it *stuck* (save ends) or
-          deal [[max(@int.dmg, @wis.dmg, @cha.dmg)]] ongoing damage to it.</p>
+        value: <p>(Disruptive Summon) Once per battle, when your summon hits a target
+          with a natural even hit it can either make it *stuck* (save ends) or deal
+          [[max(@int.dmg, @wis.dmg, @cha.dmg)]] ongoing damage to it.</p>
       isActive:
         type: Boolean
         value: false
-      tier:
-        type: String
-        value: adventurer
+      maxQuantity:
+        type: Number
+        value: 1
       powerUsage:
         type: String
         value: once-per-battle
       quantity:
         type: Number
         value: 1
-      maxQuantity:
-        type: Number
-        value: 1
+      tier:
+        type: String
+        value: adventurer
     '2':
       description:
         type: String
-        value: >-
-          <p>(Many Summons) You can use this talent even if it's expended, but
-          doing so costs you a recovery for each “extra” summon you conjure up
-          (you can only have one summon active at a time).</p>
+        value: "<p>(Many Summons) You can use this talent even if it's expended, but\
+          \ doing so costs you a recovery for each \u201Cextra\u201D summon you conjure\
+          \ up (you can only have one summon active at a time).</p>"
       isActive:
         type: Boolean
         value: false
-      tier:
-        type: String
-        value: champion
+      maxQuantity:
+        type: Number
+        value: null
       powerUsage:
         type: String
         value: ''
       quantity:
         type: Number
         value: null
-      maxQuantity:
-        type: Number
-        value: null
+      tier:
+        type: String
+        value: champion
     '3':
       description:
         type: String
-        value: >-
-          <p>(Expert Summoner) You no longer need to succeed on a save to
-          command your summon to attack, and it gets a +5 bonus to its skill
-          checks to attempt other tasks.</p>
+        value: <p>(Expert Summoner) You no longer need to succeed on a save to command
+          your summon to attack, and it gets a +5 bonus to its skill checks to attempt
+          other tasks.</p>
       isActive:
         type: Boolean
         value: false
-      tier:
-        type: String
-        value: epic
+      maxQuantity:
+        type: Number
+        value: 1
       powerUsage:
         type: String
         value: once-per-battle
       quantity:
         type: Number
         value: 1
-      maxQuantity:
-        type: Number
-        value: 1
-effects: []
-flags: {}
-folder: ZSu7g3M1bLUYkqlo
-sort: 1600000
-ownership:
-  default: 0
-_id: mNj9b5w7H85yFIRt
-_stats:
-  coreVersion: '14.365'
-  systemId: archmage
-  systemVersion: 1.40.1
-  createdTime: 1786527286404
-  modifiedTime: 1786531119914
-  lastModifiedBy: GgIxHh9diOAqs1gz
-  compendiumSource: null
-  duplicateSource: null
-  exportSource: null
-_key: '!items!mNj9b5w7H85yFIRt'
-
+      tier:
+        type: String
+        value: epic
+  finalVerse:
+    label: Final Verse
+    type: String
+    value: ''
+  group:
+    label: Group
+    type: String
+    value: ''
+  hit:
+    label: Hit
+    type: String
+    value: ''
+  hitEven:
+    label: Natural Even Hit
+    type: String
+    value: ''
+  hitOdd:
+    label: Natural Odd Hit
+    type: String
+    value: ''
+  maxQuantity:
+    label: Max Uses
+    type: Number
+    value: '1'
+  maxQuantitySecondary:
+    label: Max Secondary Uses
+    type: String
+    value: ''
+  miss:
+    label: Miss
+    type: String
+    value: ''
+  missEven:
+    label: Even Miss
+    type: String
+    value: ''
+  missOdd:
+    label: Odd Miss
+    type: String
+    value: ''
+  name:
+    label: Name
+    type: String
+  powerLevel:
+    label: Level
+    type: Number
+    value: 1
+  powerOriginName:
+    label: Power Original Name
+    type: String
+    value: Conjurer
+  powerSource:
+    label: Power Source
+    type: String
+    value: class
+  powerSourceName:
+    label: Power Source Name
+    type: String
+    value: Theurge
+  powerType:
+    label: Power Type
+    type: String
+    value: talent
+  powerUsage:
+    label: Power Usage
+    type: String
+    value: once-per-battle
+  powerUsageSecondary:
+    label: Secondary Power Usage
+    type: String
+    value: ''
+  quantity:
+    label: Uses
+    type: Number
+    value: 1
+  quantitySecondary:
+    label: Secondary Uses
+    type: Number
+    value: null
+  range:
+    label: Range
+    type: String
+    value: ''
+  recharge:
+    label: Recharge
+    type: Number
+    value: 0
+  rechargeAttempts:
+    label: Number of Recharges Attempted
+    type: Number
+    value: 0
+  resources:
+    label: Resources
+    type: String
+    value: ''
+  rollTable:
+    label: Roll Table
+    type: String
+    value: ''
+  sequencer:
+    ray: ''
+    reversed: false
+    self: ''
+    target: ''
+  special:
+    label: Special
+    type: String
+    value: ''
+  spellChain:
+    label: Chain Spell
+    type: String
+    value: ''
+  spellLevel10:
+    hide: false
+    label: 10th Level Spell
+    type: String
+    value: ''
+  spellLevel11:
+    hide: false
+    label: 11th Level Spell
+    type: String
+    value: ''
+  spellLevel2:
+    hide: false
+    label: 2nd Level Spell
+    type: String
+    value: ''
+  spellLevel3:
+    hide: false
+    label: 3rd Level Spell
+    type: String
+    value: ''
+  spellLevel4:
+    hide: false
+    label: 4th Level Spell
+    type: String
+    value: ''
+  spellLevel5:
+    hide: false
+    label: 5th Level Spell
+    type: String
+    value: ''
+  spellLevel6:
+    hide: false
+    label: 6th Level Spell
+    type: String
+    value: ''
+  spellLevel7:
+    hide: false
+    label: 7th Level Spell
+    type: String
+    value: ''
+  spellLevel8:
+    hide: false
+    label: 8th Level Spell
+    type: String
+    value: ''
+  spellLevel9:
+    hide: false
+    label: 9th Level Spell
+    type: String
+    value: ''
+  sustainOn:
+    label: Sustain On
+    type: Number
+    value: null
+  sustainedEffect:
+    label: Opening and Sustained Effect
+    type: String
+    value: ''
+  target:
+    label: Target
+    type: String
+    value: ''
+  trigger:
+    label: Trigger
+    type: String
+    value: ''
+type: power
