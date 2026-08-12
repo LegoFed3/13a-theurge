@@ -30,6 +30,10 @@ Hooks.on("ready", function() {
     wpn_rngd: 4,            // Weapon die size (# of faces), ranged (best number without penalties)
     skilled_warrior: false  // Whether the class counts as a skilled warrior for multiclassing purposes
   };
+  CONFIG.ARCHMAGE.classes2e["theurge"] = {
+    ac_lgt: 10,             // Base AC in light/no armor (best value)
+    ac_hvy: 13,             // Base AC in heavy armour
+  }
 
   /*
    * Add class description pack - adds descriptions to class page in power importer.

@@ -1,9 +1,12 @@
-// Dependencies
+// Dependencies for build tasks.
 const gulp = require('gulp');
 const yaml = require('gulp-yaml');
-const through2 = require("through2");
-const jsYaml = require("js-yaml");
-const Datastore = require("nedb");
+const data = require ('gulp-data');
+
+// @todo replace with `require('child_process').exec` as in https://www.npmjs.com/package/gulp-exec
+const shell = require('gulp-shell');
+
+// Dependencies for compendium tasks.
 const mergeStream = require("merge-stream");
 const fs = require("fs");
 const path = require("path");
@@ -26,22 +29,13 @@ function compilePacks() {
     return fs.statSync(path.join(PACK_SRC, file)).isDirectory();
   });
 
-  // Iterate over each folder/compendium.
   const packs = folders.map((folder) => {
-    // Initialize a blank nedb database based on the directory name. The new
-    // database will be stored in the dest directory as <foldername>.db
-    const db = new Datastore({ filename: path.resolve(__dirname, PACK_DEST, `${folder}.db`), autoload: true });
-    // Process the folder contents and insert them in the database.
-    return gulp.src(path.join(PACK_SRC, folder, "/**/*.yml")).pipe(
-      through2.obj((file, enc, cb) => {
-        let json = jsYaml.loadAll(file.contents.toString());
-        db.insert(json);
-        cb(null, file);
-      })
-    );
-  });
+    return gulp.src(path.join(PACK_SRC, folder))
+      .pipe(shell([
+        `fvtt package --id 13a-theurge --type Module pack <%= file.stem %> -c --yaml --in "<%= file.path %>" --out ${PACK_DEST}`
+      ]))
+  })
 
-  // Execute the streams.
   return mergeStream.call(null, packs);
 }
 
@@ -60,39 +54,6 @@ function cleanPacks() {
 /* ----------------------------------------- */
 
 /**
- * Santize pack entries.
- *
- * This function will deep clone a given compendium object, such as an Actor or
- * Item, and will then delete the `_id` key along with replacing the
- * `_permission` object with a generic version that doesn't reference user IDs.
- *
- * @param {object} pack Loaded compendium content.
- */
-function sanitizePack(pack) {
-  let sanitizedPack = JSON.parse(JSON.stringify(pack));
-  // delete sanitizedPack._id;
-  sanitizedPack.permission = { default: 0 };
-  return sanitizedPack;
-}
-
-/**
- * Sluggify a string.
- *
- * This function will take a given string and strip it of non-machine-safe
- * characters, so that it contains only lowercase alphanumeric characters and
- * hyphens.
- *
- * @param {string} string String to sluggify.
- */
-function sluggify(string) {
-  return string
-    .toLowerCase()
-    .replace(/[^a-z0-9]+/gi, ' ')
-    .trim()
-    .replace(/\s+|-{2,}/g, '-');
-}
-
-/**
  * Gulp Task: Export Packs
  *
  * This gulp task will load all compendium .db files from the dest directory,
@@ -100,56 +61,108 @@ function sluggify(string) {
  */
 function extractPacks() {
   // Start a stream for all db files in the packs dir.
-  const packs = gulp.src(`${PACK_DEST}/**/*.db`)
-    // Run a callback on each pack file to load it and then write its
-    // contents to the pack src dir in yaml format.
-    .pipe(through2.obj((file, enc, callback) => {
-      // Create directory.
-      let filename = path.parse(file.path).name;
-      if (!fs.existsSync(`./${PACK_SRC}/${filename}`)) {
-        fs.mkdirSync(`./${PACK_SRC}/${filename}`);
-      }
-
-      // Load the database.
-      const db = new Datastore({ filename: file.path, autoload: true });
-      db.loadDatabase();
-
-      // Export the packs.
-      db.find({}, (err, packs) => {
-        // Iterate through each compendium entry.
-        packs.forEach(pack => {
-          // Remove permissions and _id
-          pack = sanitizePack(pack);
-
-          // Convert to a Yaml document.
-          let output = jsYaml.dump(pack, {
-            quotingType: "'",
-            forceQuotes: true,
-            noRefs: true,
-            sortKeys: false
-          });
-
-          // Sluggify the filename.
-          let packName = sluggify(pack.name);
-
-          // Write to the file system.
-          fs.writeFileSync(`./${PACK_SRC}/${filename}/${packName}.yml`, output);
-        });
-      });
-
-      // Complete the through2 callback.
-      callback(null, file);
-    }));
+  const packs = gulp.src(`${PACK_DEST}/*`)
+    .pipe(shell([
+      'fvtt package --id 13a-theurge --type Module unpack <%= file.stem %> -c --yaml --in packs --out src/<%= file.stem %>'
+    ]));
 
   // Call the streams.
   return mergeStream.call(null, packs);
 }
 
 /* ----------------------------------------- */
+/*  Compile YAML
+/* ----------------------------------------- */
+const MODULE_YAML = [
+  './src/**/*.{yaml,yml}',
+  '!./src/packs/**/*.{yaml,yml}'
+];
+function compileYaml(protected = false) {
+  const compiledContent = gulp.src(MODULE_YAML)
+    .pipe(yaml({ space: 2 }));
+
+  if (protected) {
+    return compiledContent.pipe(data((file) => {
+      // Parse the current JSON contents
+      const jsonContent = JSON.parse(file.contents.toString());
+
+      // If this is the manifest, adjust it.
+      const fileName = path.basename(file.path);
+      if (fileName === 'module.json' || fileName === 'module.yaml') {
+        // Inject the required property
+        jsonContent.manifest = `https://raw.githubusercontent.com/LegoFed3/13a-theurge/main/module.json`;
+        jsonContent.protected = true;
+      }
+
+      // Re-assign the modified buffer back to the file
+      file.contents = Buffer.from(JSON.stringify(jsonContent, null, 2));
+    }))
+    .pipe(gulp.dest('./dist'));
+  }
+  else {
+    return compiledContent.pipe(gulp.dest('./dist'))
+  }
+}
+const yamlTask = gulp.series(compileYaml);
+
+/* ----------------------------------------- */
+/* Copy files
+/* ----------------------------------------- */
+const MODULE_COPY = [
+  '!dist',
+  'src/assets/**/*',
+  'src/module/**/*',
+  // 'src/scripts/**/*',
+  // 'src/templates/**/*',
+];
+function copyFiles() {
+  return gulp.src(MODULE_COPY, {base: 'src', encoding: false})
+    .pipe(gulp.dest('./dist'))
+}
+function copyLicense() {
+  return gulp.src('LICENSE.md')
+    .pipe(gulp.dest('./dist'))
+}
+const copyTask = gulp.series(copyFiles, copyLicense);
+
+/* ----------------------------------------- */
+/*  Watch Updates
+/* ----------------------------------------- */
+
+function watchUpdates() {
+  gulp.watch(MODULE_YAML, yamlTask);
+  gulp.watch(MODULE_COPY, copyTask);
+}
+
+/* ----------------------------------------- */
 /*  Export Tasks
 /* ----------------------------------------- */
 
-exports.default = gulp.series(compilePacks);
+exports.default = gulp.series(
+  gulp.parallel(
+    compileYaml,
+    copyTask,
+  ),
+  watchUpdates
+);
+exports.yaml = yamlTask;
+exports.files = copyTask;
 exports.cleanPacks = gulp.series(cleanPacks);
 exports.compilePacks = gulp.series(cleanPacks, compilePacks);
 exports.extractPacks = gulp.series(extractPacks);
+exports.build = gulp.series(
+  cleanPacks,
+  gulp.parallel(
+    () => compileYaml(false),
+    compilePacks,
+    copyTask,
+  ),
+);
+exports.buildProd = gulp.series(
+  cleanPacks,
+  gulp.parallel(
+    () => compileYaml(true),
+    compilePacks,
+    copyTask,
+  ),
+);

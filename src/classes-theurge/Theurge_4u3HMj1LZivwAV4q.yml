@@ -1,0 +1,84 @@
+name: Theurge
+flags: {}
+pages:
+  - name: 'Figure: Theurge'
+    type: image
+    src: systems/archmage/assets/icons/spells/runes-blue-1.jpg
+    title:
+      show: false
+      level: 1
+    _id: ca5L0hiFRwD6oSch
+    image:
+      caption: ''
+    text:
+      format: 1
+    video:
+      controls: true
+      volume: 0.5
+    system: {}
+    sort: 0
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      coreVersion: '13.348'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    category: null
+    _key: '!journal.pages!4u3HMj1LZivwAV4q.ca5L0hiFRwD6oSch'
+  - name: Theurge
+    type: text
+    title:
+      show: false
+      level: 1
+    text:
+      format: 1
+      content: "<div class=\"l-center\"><h1 class=\"archmage-class-title\">Theurge</h1><div class=\"grid grid-2col\"><div class=\"details\"><h2 class=\"archmage-class-heading\">Overview</h2><p>The Theurge retreads a lot of thematic ground already covered by the core spellcasting classes, but does so using simpler and more free-form mechanics, akin to those of the so-called “simple” classes, while allowing great freedom to mix and match magical abilities typically associated with traditional spellcasting classes. It is, in short, a “build-your-own-spellcaster” class.</p><p>As a simple class, it relies mostly on magic-flavored basic attacks, souped up via talents. The Theurge is generally a ranged magic-user of some kind, whose wizardly robes/priestly garments/travel clothes are largely unsuited to close quarters combat (the <em>War Caster</em> and <em>Spellblade</em> talents notwithstanding). Its talents allow it to mix damage, support, area and control magic to represent a variety of magical traditions, mixing what are often termed “arcane” and “divine” magic.</p><p>As a generic magic-user, it relies on Intelligence, Wisdom or Charisma. Many talents require a decent score in one of these attributes to be effective, so you probably want to specialize in one or two, but not all three, to have a good score in whichever one you choose to be your attack score. In general, Intelligence-based talents have a wizardly bent and focus on target manipulation, while Wisdom-based clerical-flavored talents emphasize supporting others, and sorcerous-themed Charisma-based talents aim towards offense. Constitution is also at least somewhat important, and more so if you plan to spend time in melee.</p><p>If you want your Theurge to more closely resemble one (or more!) of the core spellcasters, namely Cleric, Sorcerer, Wizard but also Chaos Mage, Druid and Necromancer, talents are available to “borrow” some of their defining features and spells.</p><p>It's also expected that you’ll come up with your own cool names for your magic attacks, both simple and souped up via talents - e.g. a fire-based ranged magic attack might be called ‘<em>firebolt</em>’, while a cold-based, disruptive-enhanced one that makes the target stuck could be called ‘<em>frostbind</em>’ instead.</p></div><div class=\"details\"><h2 class=\"archmage-class-heading\">Ability Scores</h2><p>Theurges gain a +2 class bonus to Intelligence, Wisdom or Charisma, as long as it isn’t the same ability you increase with your +2 racial bonus.</p><h2 class=\"archmage-class-heading\">Backgrounds</h2><p>Possible backgrounds include: wandering miracle worker, hedge wizard, student of high magic, hierophant, village healer, fallen god of all magic, tribal shaman.</p><h2 class=\"archmage-class-heading\">Gear</h2><p><span style=\"font-family:'Signika, sans-serif'\">At 1st level, a theurge usually has a simple melee weapon, a few changes of clothing, a wand or staff, and other paraphernalia suggested by their backgrounds.</span></p><h3 class=\"archmage-class-subheading\">Gold Pieces</h3><p>Theurges may start with either 25 gp or 1d6 x 10 gp in a first edition game, or the custamry healing potion in a second edition game.</p><h2 class=\"archmage-class-heading\">Armor</h2><table><tbody><tr><td><p><strong>Armor Type</strong></p></td><td><p><strong>Base AC</strong></p></td><td><p><strong>Atk Penalty</strong></p></td></tr><tr><td><p><em><strong>None</strong></em></p></td><td><p><em>10 (1e: 11)</em></p></td><td><p>—</p></td></tr><tr><td><p><strong>Light</strong></p></td><td><p>12 (1e: 13)</p></td><td><p>–2</p></td></tr><tr><td><p><strong>Heavy</strong></p></td><td><p>13 (1e: 14)</p></td><td><p>–3</p></td></tr><tr><td><p><strong>Shield</strong></p></td><td><p>+1</p></td><td><p>–1</p></td></tr></tbody></table></div><div class=\"melee-weapons\"><p></p><h2 class=\"archmage-class-heading\">Melee Weapons</h2><table><tbody><tr><td><p>\_</p></td><td><p><strong>One-Handed</strong></p></td><td><p><strong>Two-Handed</strong></p></td></tr><tr><td><p><strong>Small</strong></p></td><td><p>1d4 dagger, rod, <em>magic</em></p></td><td><p>1d6 club, staff</p></td></tr><tr><td><p><strong>Light or Simple</strong></p></td><td><p>1d6 (-2 atk) hand-axe, rapier</p></td><td><p>1d8 (-2 atk) spear</p></td></tr><tr><td><p><strong>Heavy or Martial</strong></p></td><td><p>1d8 (-3 atk) longsword</p></td><td><p>1d10 (-4 atk) greatsword, greataxe</p></td></tr></tbody></table></div><div class=\"ranged-weapons\"><h2 class=\"archmage-class-heading\">Ranged Weapons</h2><table><tbody><tr><td><p>\_</p></td><td><p><strong>Thrown</strong></p></td><td><p><strong>Crossbow</strong></p></td><td><p><strong>Bow</strong></p></td></tr><tr><td><p><strong>Small</strong></p></td><td><p>1d4 dagger</p></td><td><p>1d4 (–2 atk) hand crossbow</p></td><td><p>—</p></td></tr><tr><td><p><strong>Light or Simple</strong></p></td><td><p>1d6 (-2 atk) javelin, axe</p></td><td><p>1d6 (–2 atk) light crossbow</p></td><td><p>1d6 (-2 atk) shortbow</p></td></tr><tr><td><p><strong>Heavy or Martial</strong></p></td><td><p>1d8 <em>magic</em></p></td><td><p>1d8 (–3 atk) heavy crossbow</p></td><td><p>1d8 (-3 atk)longbow</p></td></tr></tbody></table></div></div></div><h2 class=\"archmage-class-heading\">Level Progression</h2><table><thead><tr><th><p>Theurge Level</p></th><th><p>Total Hit Points</p></th><th><p>Total Feats</p></th><th><p>Class Talents (M)</p></th><th><p>Level-up Ability Bonuses</p></th><th><p>Damage Bonus from Ability Score</p></th></tr></thead><tbody><tr><th><p>Level 1 Multiclass</p></th><td><p>(Avg. of both classes) x <strong>3</strong></p></td><td><p>As 1st level PC</p></td><td><p>1 or 2 (3 total)</p></td><td><p>Not affected</p></td><td><p>ability modifier</p></td></tr><tr><th><p>Level 1</p></th><td><p>(6 + CON mod) x <strong>3</strong></p></td><td><p>1 adventurer</p></td><td><p>3 adventurer</p></td><td><p>\_</p></td><td><p>ability modifier</p></td></tr><tr><th><p>Level 2</p></th><td><p>(6 + CON mod) x <strong>4</strong></p></td><td><p>2 adventurer</p></td><td><p>3 adventurer</p></td><td><p>\_</p></td><td><p>ability modifier</p></td></tr><tr><th><p>Level 3</p></th><td><p>(6 + CON mod) x <strong>5</strong></p></td><td><p>3 adventurer</p></td><td><p>3 adventurer</p></td><td><p>\_</p></td><td><p>ability modifier</p></td></tr><tr><th><p>Level 4</p></th><td><p>(6 + CON mod) x <strong>6</strong></p></td><td><p>4 adventurer</p></td><td><p>3 adventurer</p></td><td><p>+1 to 3 abilities</p></td><td><p>ability modifier</p></td></tr><tr><th><p>Level 5</p></th><td><p>(6 + CON mod) x <strong>8</strong></p></td><td><p>4 adventurer</p><p>1 champion</p></td><td><p>3 adventurer</p><p>1 champion</p></td><td><p>\_</p></td><td><p>2 x ability modifier</p></td></tr><tr><th><p>Level 6</p></th><td><p>(6 + CON mod) x <strong>10</strong></p></td><td><p>4 adventurer</p><p>2 champion</p></td><td><p>3 adventurer</p><p>1 champion</p></td><td><p>\_</p></td><td><p>2 x ability modifier</p></td></tr><tr><th><p>Level 7</p></th><td><p>(6 + CON mod) x <strong>12</strong></p></td><td><p>4 adventurer</p><p>3 champion</p></td><td><p>3 adventurer</p><p>1 champion</p></td><td><p>+1 to 4 abilities<br>(1e: 3 abilities)</p></td><td><p>2 x ability modifier</p></td></tr><tr><th><p>Level 8</p></th><td><p>(6 + CON mod) x <strong>16</strong></p></td><td><p>4 adventurer</p><p>3 champion</p><p>1 epic</p></td><td><p>3 adventurer</p><p>1 champion</p><p>1 epic</p></td><td><p>\_</p></td><td><p>4 x ability modifier (1e: 3x)</p></td></tr><tr><th><p>Level 9</p></th><td><p>(6 + CON mod) x <strong>20</strong></p></td><td><p>4 adventurer</p><p>3 champion</p><p>2 epic</p></td><td><p>3 adventurer</p><p>1 champion</p><p>1 epic</p></td><td><p>\_</p></td><td><p>4 x ability modifier (1e: 3x)</p></td></tr><tr><th><p>Level 10</p></th><td><p>(6 + CON mod) x <strong>24</strong></p><p></p></td><td><p>4 adventurer</p><p>3 champion</p><p>3 epic</p></td><td><p>3 adventurer</p><p>1 champion</p><p>1 epic</p></td><td><p>+1 to 5 abilities<br>(1e: 3 abilities)</p></td><td><p>4 x ability modifier (1e: 3x)</p></td></tr></tbody></table><div class=\"l-center\"><h2 class=\"archmage-class-heading\">Stats</h2><p>Initiative, AC, PD, MD, Hit Points, Recovery Dice, Feats, and some Talents are level dependent.</p><table><tbody><tr><td><p><strong>Ability Bonus</strong></p></td><td><p>+2 Intelligence, Wisdom or Charisma (different from racial bonus)</p></td></tr><tr><td><p><strong>Initiative</strong></p></td><td><p>Dex mod + Level</p></td></tr><tr><td><p><strong>Armor Class </strong>(no armor)</p></td><td><p>10 (or 11 in 1e) + middle mod of Con/Dex/Wis + Level</p></td></tr><tr><td><p><strong>Physical Defense</strong></p></td><td><p>11 + middle mod of Str/Con/Dex + Level</p></td></tr><tr><td><p><strong>Mental Defense</strong></p></td><td><p>11 + middle mod of Int/Wis/Cha + Level</p></td></tr><tr><td><p><strong>Hit Points</strong></p></td><td><p>(6 + Con mod) x Level modifier (see level progression chart)</p></td></tr><tr><td><p><strong>Recoveries</strong></p></td><td><p>8</p></td></tr><tr><td><p><strong>Recovery Dice</strong></p></td><td><p>(1d6 x Level) + Con mod</p></td></tr><tr><td><p><strong>Backgrounds</strong></p></td><td><p>8 points, max 5 in any one background</p></td></tr><tr><td><p><strong>Icon Relationships</strong></p></td><td><p>3 points</p></td></tr><tr><td><p><strong>Talents</strong></p></td><td><p>3 (see level progression chart)</p></td></tr><tr><td><p><strong>Feats</strong></p></td><td><p>1 per Level</p></td></tr></tbody></table><div class=\"grid grid-2col\"><div class=\"details\"><h2 class=\"archmage-class-heading\">Multiclassing Considerations</h2></div></div><p>The class already allows you to build most kinds of spellcasters (and gishes) without needing to delve into the 13 True Ways multiclassing rules, but if you want to add more structured complexity to your character, or perhaps mix in a more melee-oriented class, here is how it works.</p><p>Firstly, we are not going to list a huge table of key modifiers. Your key modifier must include at least one of Intelligence, Wisdom or Charisma (the one you use for your attacks), and one attribute important to your other class. You have some leeway here, so if you are multiclassing with, for example, a Commander your key modifier would probably be Str/Cha, unless you plan on picking one of the Commander talents that lets it use Wisdom or Intelligence, in which case it is probably in your interest to adapt your key modifier as well. For another example, multiclassing with a Wizard definitely needs to include Intelligence in the key modifier, and you are free to use Wisdom or Charisma as the second score. One last example, multiclassing with a Ranger should give you the choice of Strength or Dexterity from the Ranger side, and Intelligence, Wisdom or Charisma from the Theurge’s side.</p><p>Secondly, this class is most definitely not a skilled warrior. Which is a problem, because the weapon die size penalty applies to your magic attacks as well (normally your melee d4 stays a d4, but your ranged d8 becomes a d6). You’ll be doing less damage with all of your attacks if you pursue this route.</p><p>Lastly, note that due to the no power crossover rule all the ways in which your talents can modify your basic magic attacks do not work across class boundaries: they can’t be used to improve your other class’ attacks. Some of them do apply to any spell you borrow using your Theurge talents, but only to the ones cast from the very few Theurge spells slots you get from the class’ own talents, not from your other half of the multiclass.</p></div>"
+      markdown: ''
+    _id: 1qCxY3xGcl6Hw4AX
+    image: {}
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    system: {}
+    sort: 0
+    ownership:
+      default: -1
+    flags: {}
+    _stats:
+      coreVersion: '14.365'
+      systemId: null
+      systemVersion: null
+      createdTime: 1786525916016
+      modifiedTime: 1786531687227
+      lastModifiedBy: GgIxHh9diOAqs1gz
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    category: null
+    _key: '!journal.pages!4u3HMj1LZivwAV4q.1qCxY3xGcl6Hw4AX'
+folder: null
+sort: 0
+ownership:
+  default: 0
+_id: 4u3HMj1LZivwAV4q
+_stats:
+  coreVersion: '13.348'
+  systemId: null
+  systemVersion: null
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+categories: []
+_key: '!journal!4u3HMj1LZivwAV4q'
+

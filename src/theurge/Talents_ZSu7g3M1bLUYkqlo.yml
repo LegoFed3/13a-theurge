@@ -1,0 +1,21 @@
+type: Item
+folder: null
+name: Talents
+color: null
+sorting: a
+_id: ZSu7g3M1bLUYkqlo
+description: ''
+sort: 0
+flags: {}
+_stats:
+  coreVersion: '14.365'
+  systemId: archmage
+  systemVersion: 1.40.1
+  createdTime: 1786527230217
+  modifiedTime: 1786527230217
+  lastModifiedBy: GgIxHh9diOAqs1gz
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!folders!ZSu7g3M1bLUYkqlo'
+

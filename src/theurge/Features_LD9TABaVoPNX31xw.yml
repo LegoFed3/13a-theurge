@@ -1,0 +1,21 @@
+type: Item
+folder: null
+name: Features
+color: null
+sorting: a
+_id: LD9TABaVoPNX31xw
+description: ''
+sort: 0
+flags: {}
+_stats:
+  coreVersion: '14.365'
+  systemId: archmage
+  systemVersion: 1.40.1
+  createdTime: 1786526564510
+  modifiedTime: 1786526564510
+  lastModifiedBy: GgIxHh9diOAqs1gz
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!folders!LD9TABaVoPNX31xw'
+

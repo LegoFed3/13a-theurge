@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.1.0
+- Update class rules to version 4.1.12.
+
+## 1.0.6
+- Update class rules to version 2.8.0.
+
 ## 1.0.5
 - Update feat structure to reflect system changes in 1.26.0;
 - Update core and system compatibility.

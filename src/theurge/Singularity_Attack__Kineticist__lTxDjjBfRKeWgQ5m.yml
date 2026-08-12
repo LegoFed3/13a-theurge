@@ -1,0 +1,259 @@
+folder: ZSu7g3M1bLUYkqlo
+name: Singularity Attack (Kineticist)
+type: power
+_id: lTxDjjBfRKeWgQ5m
+img: icons/magic/earth/orb-ringed-lava-black-orange.webp
+system:
+  name:
+    type: String
+    label: Name
+  description:
+    type: String
+    label: Description
+    value: ''
+  powerUsage:
+    type: String
+    label: Power Usage
+    value: at-will
+  recharge:
+    type: Number
+    label: Recharge
+    value: 0
+  rechargeAttempts:
+    type: Number
+    label: Number of Recharges Attempted
+    value: 0
+  quantity:
+    type: Number
+    label: Uses
+    value: null
+  maxQuantity:
+    type: String
+    label: Max Uses
+    value: ''
+  embeddedMacro:
+    type: String
+    label: Embedded Macro
+    value: ''
+  sequencer:
+    ray: ''
+    self: ''
+    target: ''
+    reversed: false
+  powerUsageSecondary:
+    type: String
+    label: Secondary Power Usage
+    value: ''
+  quantitySecondary:
+    type: Number
+    label: Secondary Uses
+    value: null
+  maxQuantitySecondary:
+    type: String
+    label: Max Secondary Uses
+    value: ''
+  group:
+    type: String
+    label: Group
+    value: ''
+  powerSource:
+    type: String
+    label: Power Source
+    value: class
+  powerSourceName:
+    type: String
+    label: Power Source Name
+    value: Theurge
+  powerOriginName:
+    type: String
+    label: Power Original Name
+    value: Singularity Attack (Kineticist)
+  powerType:
+    type: String
+    label: Power Type
+    value: talent
+  powerLevel:
+    type: Number
+    label: Level
+    value: 1
+  actionType:
+    type: String
+    label: Action
+    value: standard
+  range:
+    type: String
+    label: Range
+    value: Close-quarters spell
+  trigger:
+    type: String
+    label: Trigger
+    value: ''
+  target:
+    type: String
+    label: Target
+    value: '[[1d4 + 1]] enemies near the singularity'
+  always:
+    type: String
+    label: Always
+    value: ''
+  attack:
+    type: String
+    label: Attack
+    value: >-
+      [[d20+max(@int.mod, @wis.mod, @cha.mod)+@std+max(@atk.a.bonus,
+      @atk.d.bonus)]] vs. PD
+  critMod:
+    type: String
+    label: Attack
+    value: ''
+  hit:
+    type: String
+    label: Hit
+    value: >-
+      If the target wasn’t already engaged with the singularity it is pulled
+      into engagement with it (if it makes sense for its size, otherwise it’s at
+      least *dazed* as the weird side-pulling gravity messes with its
+      movements). Creatures that start their turn engaged with the singularity
+      take [[max(@int.dmg, @wis.dmg, @cha.dmg)]] damage of a type you have
+      access to (probably force) and must succeed on a disengage check  to move
+      away from it.
+  hitEven:
+    type: String
+    label: Natural Even Hit
+    value: ''
+  hitOdd:
+    type: String
+    label: Natural Odd Hit
+    value: ''
+  crit:
+    type: String
+    label: Crit
+    value: ''
+  miss:
+    type: String
+    label: Miss
+    value: ''
+  missEven:
+    type: String
+    label: Even Miss
+    value: ''
+  missOdd:
+    type: String
+    label: Odd Miss
+    value: ''
+  resources:
+    type: String
+    label: Resources
+    value: ''
+  castBroadEffect:
+    type: String
+    label: Cast for Broad Effect
+    value: ''
+  castPower:
+    type: String
+    label: Cast for Power
+    value: ''
+  sustainedEffect:
+    type: String
+    label: Opening and Sustained Effect
+    value: ''
+  finalVerse:
+    type: String
+    label: Final Verse
+    value: ''
+  special:
+    type: String
+    label: Special
+    value: >-
+      <p>You must activated
+      @UUID[Compendium.13a-theurge.theurge.Item.NlvPNy5q6WvE83BA]{Kineticist}'s
+      epic feat to use this attack.</p>
+  effect:
+    type: String
+    label: Effect
+    value: ''
+  spellLevel2:
+    hide: false
+    type: String
+    label: 2nd Level Spell
+    value: ''
+  spellLevel3:
+    hide: false
+    type: String
+    label: 3rd Level Spell
+    value: ''
+  spellLevel4:
+    hide: false
+    type: String
+    label: 4th Level Spell
+    value: ''
+  spellLevel5:
+    hide: false
+    type: String
+    label: 5th Level Spell
+    value: ''
+  spellLevel6:
+    hide: false
+    type: String
+    label: 6th Level Spell
+    value: ''
+  spellLevel7:
+    hide: false
+    type: String
+    label: 7th Level Spell
+    value: ''
+  spellLevel8:
+    hide: false
+    type: String
+    label: 8th Level Spell
+    value: ''
+  spellLevel9:
+    hide: false
+    type: String
+    label: 9th Level Spell
+    value: ''
+  spellLevel10:
+    hide: false
+    type: String
+    label: 10th Level Spell
+    value: ''
+  spellLevel11:
+    hide: false
+    type: String
+    label: 11th Level Spell
+    value: ''
+  spellChain:
+    type: String
+    label: Chain Spell
+    value: ''
+  breathWeapon:
+    type: String
+    label: Breath Weapon
+    value: ''
+  sustainOn:
+    type: Number
+    label: Sustain On
+    value: null
+  rollTable:
+    type: String
+    label: Roll Table
+    value: ''
+  feats: {}
+effects: []
+sort: 100000
+ownership:
+  default: 0
+  GgIxHh9diOAqs1gz: 3
+flags: {}
+_stats:
+  coreVersion: '14.365'
+  systemId: archmage
+  systemVersion: 1.40.1
+  createdTime: 1786529048454
+  modifiedTime: 1786531119913
+  lastModifiedBy: GgIxHh9diOAqs1gz
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!lTxDjjBfRKeWgQ5m'
+

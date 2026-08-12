@@ -1,0 +1,284 @@
+name: Basic Magic
+type: power
+img: icons/magic/symbols/runes-triangle-blue.webp
+system:
+  name:
+    type: String
+    label: Name
+  description:
+    type: String
+    label: Description
+    value: ''
+  powerUsage:
+    type: String
+    label: Power Usage
+    value: ''
+  recharge:
+    type: Number
+    label: Recharge
+    value: 0
+  rechargeAttempts:
+    type: Number
+    label: Number of Recharges Attempted
+    value: 0
+  quantity:
+    type: Number
+    label: Uses
+    value: null
+  maxQuantity:
+    type: Number
+    label: Max Uses
+    value: ''
+  embeddedMacro:
+    type: String
+    label: Embedded Macro
+    value: ''
+  sequencer:
+    ray: ''
+    self: ''
+    target: ''
+    reversed: false
+  powerUsageSecondary:
+    type: String
+    label: Secondary Power Usage
+    value: ''
+  quantitySecondary:
+    type: Number
+    label: Secondary Uses
+    value: null
+  maxQuantitySecondary:
+    type: String
+    label: Max Secondary Uses
+    value: ''
+  group:
+    type: String
+    label: Group
+    value: ''
+  powerSource:
+    type: String
+    label: Power Source
+    value: class
+  powerSourceName:
+    type: String
+    label: Power Source Name
+    value: Theurge
+  powerOriginName:
+    type: String
+    label: Power Original Name
+    value: Basic Magic
+  powerType:
+    type: String
+    label: Power Type
+    value: feature
+  powerLevel:
+    type: Number
+    label: Level
+    value: 1
+  actionType:
+    type: String
+    label: Action
+    value: ''
+  range:
+    type: String
+    label: Range
+    value: ''
+  trigger:
+    type: String
+    label: Trigger
+    value: ''
+  target:
+    type: String
+    label: Target
+    value: ''
+  always:
+    type: String
+    label: Always
+    value: ''
+  attack:
+    type: String
+    label: Attack
+    value: ''
+  critMod:
+    type: String
+    label: Attack
+    value: ''
+  hit:
+    type: String
+    label: Hit
+    value: ''
+  hitEven:
+    type: String
+    label: Natural Even Hit
+    value: ''
+  hitOdd:
+    type: String
+    label: Natural Odd Hit
+    value: ''
+  crit:
+    type: String
+    label: Crit
+    value: ''
+  miss:
+    type: String
+    label: Miss
+    value: ''
+  missEven:
+    type: String
+    label: Even Miss
+    value: ''
+  missOdd:
+    type: String
+    label: Odd Miss
+    value: ''
+  resources:
+    type: String
+    label: Resources
+    value: ''
+  castBroadEffect:
+    type: String
+    label: Cast for Broad Effect
+    value: ''
+  castPower:
+    type: String
+    label: Cast for Power
+    value: ''
+  sustainedEffect:
+    type: String
+    label: Opening and Sustained Effect
+    value: ''
+  finalVerse:
+    type: String
+    label: Final Verse
+    value: ''
+  special:
+    type: String
+    label: Special
+    value: ''
+  effect:
+    type: String
+    label: Effect
+    value: >-
+      <p>Your main attacks are your magic basic attacks
+      (@UUID[Compendium.13a-theurge.theurge.Item.fOp22gFqZWWX6vDp]{Magic Ranged
+      attack}, @UUID[Compendium.13a-theurge.theurge.Item.ebsNfS56jCKjAspw]{Magic
+      Melee attack}). These count as basic attacks for the purpose of things
+      like making opportunity attacks (or a commander or bard granting you extra
+      basic attacks), but also as spells for the purposes of
+      <em>Counter-spell</em> or the <em>Hindered</em> condition.</p><p>Your
+      talents modify your magic basic attacks, and are designed so that you can
+      apply multiple such talents to a single basic attack at the same time. You
+      gain all of the talent’s benefits for that attack, and penalties and
+      bonuses to e.g. damage die size stack. So, for example, an attack
+      benefitting from both <em>Mystical Might</em> and <em>Mass
+      Enchantment</em> would increase the damage die size by a single stage.
+      Feel free to prepare a name for each combination of talents and possibly
+      damage type you have, if you’d like. You can use your magic attacks when
+      you need to make a no-trigger attack, but you can’t activate any of your
+      talents in conjunction with a no-trigger attack.</p>
+  spellLevel2:
+    hide: false
+    type: String
+    label: 2nd Level Spell
+    value: ''
+  spellLevel3:
+    hide: false
+    type: String
+    label: 3rd Level Spell
+    value: ''
+  spellLevel4:
+    hide: false
+    type: String
+    label: 4th Level Spell
+    value: ''
+  spellLevel5:
+    hide: false
+    type: String
+    label: 5th Level Spell
+    value: ''
+  spellLevel6:
+    hide: false
+    type: String
+    label: 6th Level Spell
+    value: ''
+  spellLevel7:
+    hide: false
+    type: String
+    label: 7th Level Spell
+    value: ''
+  spellLevel8:
+    hide: false
+    type: String
+    label: 8th Level Spell
+    value: ''
+  spellLevel9:
+    hide: false
+    type: String
+    label: 9th Level Spell
+    value: ''
+  spellLevel10:
+    hide: false
+    type: String
+    label: 10th Level Spell
+    value: ''
+  spellLevel11:
+    hide: false
+    type: String
+    label: 11th Level Spell
+    value: ''
+  spellChain:
+    type: String
+    label: Chain Spell
+    value: ''
+  breathWeapon:
+    type: String
+    label: Breath Weapon
+    value: ''
+  sustainOn:
+    type: Number
+    label: Sustain On
+    value: null
+  rollTable:
+    type: String
+    label: Roll Table
+    value: ''
+  feats:
+    '0':
+      description:
+        type: String
+        value: >-
+          <p>You can target far away enemies with your basic <em>magic ranged
+          attack</em>, at a -2 penalty to the attack roll.</p>
+      isActive:
+        type: Boolean
+        value: false
+      tier:
+        type: String
+        value: adventurer
+      powerUsage:
+        type: String
+        value: ''
+      quantity:
+        type: Number
+        value: null
+      maxQuantity:
+        type: Number
+        value: null
+effects: []
+flags: {}
+folder: LD9TABaVoPNX31xw
+sort: 100000
+ownership:
+  default: 0
+_id: 16tNG7mYYZQKHrBa
+_stats:
+  coreVersion: '14.365'
+  systemId: archmage
+  systemVersion: 1.40.1
+  createdTime: 1786526572981
+  modifiedTime: 1786526748110
+  lastModifiedBy: GgIxHh9diOAqs1gz
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!16tNG7mYYZQKHrBa'
+

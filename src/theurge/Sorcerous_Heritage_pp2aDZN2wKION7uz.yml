@@ -1,0 +1,327 @@
+name: Sorcerous Heritage
+type: power
+img: systems/archmage/assets/icons/skills/blue_21.jpg
+system:
+  name:
+    type: String
+    label: Name
+  description:
+    type: String
+    label: Description
+    value: ''
+  powerUsage:
+    type: String
+    label: Power Usage
+    value: once-per-battle
+  recharge:
+    type: Number
+    label: Recharge
+    value: 0
+  rechargeAttempts:
+    type: Number
+    label: Number of Recharges Attempted
+    value: 0
+  quantity:
+    type: Number
+    label: Uses
+    value: 1
+  maxQuantity:
+    type: Number
+    label: Max Uses
+    value: '1'
+  embeddedMacro:
+    type: String
+    label: Embedded Macro
+    value: ''
+  sequencer:
+    ray: ''
+    self: ''
+    target: ''
+    reversed: false
+  powerUsageSecondary:
+    type: String
+    label: Secondary Power Usage
+    value: ''
+  quantitySecondary:
+    type: Number
+    label: Secondary Uses
+    value: null
+  maxQuantitySecondary:
+    type: String
+    label: Max Secondary Uses
+    value: ''
+  group:
+    type: String
+    label: Group
+    value: ''
+  powerSource:
+    type: String
+    label: Power Source
+    value: class
+  powerSourceName:
+    type: String
+    label: Power Source Name
+    value: Theurge
+  powerOriginName:
+    type: String
+    label: Power Original Name
+    value: Sorcerous Heritage
+  powerType:
+    type: String
+    label: Power Type
+    value: talent
+  powerLevel:
+    type: Number
+    label: Level
+    value: 1
+  actionType:
+    type: String
+    label: Action
+    value: standard
+  range:
+    type: String
+    label: Range
+    value: ''
+  trigger:
+    type: String
+    label: Trigger
+    value: ''
+  target:
+    type: String
+    label: Target
+    value: ''
+  always:
+    type: String
+    label: Always
+    value: ''
+  attack:
+    type: String
+    label: Attack
+    value: ''
+  critMod:
+    type: String
+    label: Attack
+    value: ''
+  hit:
+    type: String
+    label: Hit
+    value: ''
+  hitEven:
+    type: String
+    label: Natural Even Hit
+    value: ''
+  hitOdd:
+    type: String
+    label: Natural Odd Hit
+    value: ''
+  crit:
+    type: String
+    label: Crit
+    value: ''
+  miss:
+    type: String
+    label: Miss
+    value: ''
+  missEven:
+    type: String
+    label: Even Miss
+    value: ''
+  missOdd:
+    type: String
+    label: Odd Miss
+    value: ''
+  resources:
+    type: String
+    label: Resources
+    value: ''
+  castBroadEffect:
+    type: String
+    label: Cast for Broad Effect
+    value: ''
+  castPower:
+    type: String
+    label: Cast for Power
+    value: ''
+  sustainedEffect:
+    type: String
+    label: Opening and Sustained Effect
+    value: ''
+  finalVerse:
+    type: String
+    label: Final Verse
+    value: ''
+  special:
+    type: String
+    label: Special
+    value: ''
+  effect:
+    type: String
+    label: Effect
+    value: >-
+      <p>Once per battle you can spend your standard action to <em>Gather
+      Power</em> like a Sorcerer. You can then cast the <em>Surge Shield</em>
+      overspill effect (2e) or gain a
+      @UUID[Compendium.archmage.system-rolltables.RollTable.PQbtKGZVFy83A85d]{Chaotic
+      Benefit} (1e). The next spell you cast or magic attack you make has its
+      effect doubled: this includes doubling its damage, hit or miss, but also
+      doubling its positive effects such as healing or temporary hit points, so
+      you could use it to double the healing (but not the cost) of a use of your
+      @UUID[Compendium.13a-theurge.theurge.Item.yiXqeGkJA7Ldubim]{Touch of
+      Healing} talent, for example, or gain double the attack bonus from that
+      <em>Bless</em> spell you learned from your
+      @UUID[Compendium.13a-theurge.theurge.Item.4ZtKg1Tj6QuvOctE]{Priestly
+      Training}. You also gain one sorcerer arc or recharge spell of your
+      choice, which you can change after each full heal-up. Note that you are
+      not limited to casting sorcerer spells after gathering power, your magical
+      flexibility lets you cast any spell you may know. Also, since sorcerer
+      spells use Charisma as their attack score, you might want to avoid this
+      talent unless you have a decent score in that attribute or plan to borrow
+      a non-attack spell.</p>
+  spellLevel2:
+    hide: false
+    type: String
+    label: 2nd Level Spell
+    value: ''
+  spellLevel3:
+    hide: false
+    type: String
+    label: 3rd Level Spell
+    value: ''
+  spellLevel4:
+    hide: false
+    type: String
+    label: 4th Level Spell
+    value: ''
+  spellLevel5:
+    hide: false
+    type: String
+    label: 5th Level Spell
+    value: ''
+  spellLevel6:
+    hide: false
+    type: String
+    label: 6th Level Spell
+    value: ''
+  spellLevel7:
+    hide: false
+    type: String
+    label: 7th Level Spell
+    value: ''
+  spellLevel8:
+    hide: false
+    type: String
+    label: 8th Level Spell
+    value: ''
+  spellLevel9:
+    hide: false
+    type: String
+    label: 9th Level Spell
+    value: ''
+  spellLevel10:
+    hide: false
+    type: String
+    label: 10th Level Spell
+    value: ''
+  spellLevel11:
+    hide: false
+    type: String
+    label: 11th Level Spell
+    value: ''
+  spellChain:
+    type: String
+    label: Chain Spell
+    value: ''
+  breathWeapon:
+    type: String
+    label: Breath Weapon
+    value: ''
+  sustainOn:
+    type: Number
+    label: Sustain On
+    value: null
+  rollTable:
+    type: String
+    label: Roll Table
+    value: ''
+  feats:
+    '0':
+      description:
+        type: String
+        value: >-
+          <p>You gain an additional Icon relationship point with a sorcerous
+          Icon associated with your magical heritage, subject to the usual
+          limits on relationships.</p>
+      isActive:
+        type: Boolean
+        value: false
+      tier:
+        type: String
+        value: adventurer
+      powerUsage:
+        type: String
+        value: ''
+      quantity:
+        type: Number
+        value: null
+      maxQuantity:
+        type: Number
+        value: null
+    '1':
+      description:
+        type: String
+        value: <p>Gain a 2nd sorcerer daily or recharge spell of your choice.</p>
+      isActive:
+        type: Boolean
+        value: false
+      tier:
+        type: String
+        value: champion
+      powerUsage:
+        type: String
+        value: ''
+      quantity:
+        type: Number
+        value: null
+      maxQuantity:
+        type: Number
+        value: null
+    '2':
+      description:
+        type: String
+        value: >-
+          <p>Once per full heal-up when the E.D. is 2+ you can gather power as a
+          quick action.</p>
+      isActive:
+        type: Boolean
+        value: false
+      tier:
+        type: String
+        value: epic
+      powerUsage:
+        type: String
+        value: daily
+      quantity:
+        type: Number
+        value: 1
+      maxQuantity:
+        type: Number
+        value: 1
+effects: []
+flags: {}
+folder: ZSu7g3M1bLUYkqlo
+sort: 1200000
+ownership:
+  default: 0
+_id: pp2aDZN2wKION7uz
+_stats:
+  coreVersion: '14.365'
+  systemId: archmage
+  systemVersion: 1.40.1
+  createdTime: 1786530631843
+  modifiedTime: 1786531119914
+  lastModifiedBy: GgIxHh9diOAqs1gz
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!pp2aDZN2wKION7uz'
+

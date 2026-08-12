@@ -1,28 +1,34 @@
 {
-  "name": "13a-theurge",
-  "version": "1.0.0",
-  "description": "Pack exporter/builder",
+  "name": "13th-age-core-2e",
+  "version": "0.0.1",
+  "description": "Compendium content for the 13th Age system for Foundry. Content uses the 2e rules.",
   "scripts": {
+    "build": "gulp build && npm run build:css",
+    "build:prod": "gulp buildProd && npm run build:css && mv dist 13th-age-core-2e",
+    "build:manifest": "gulp yaml",
+    "build:css": "sass src/styles/13th-age-core-2e.scss:dist/styles/13th-age-core-2e.css",
+    "watch": "gulp",
+    "watch:css": "sass src/styles/13th-age-core-2e.scss:dist/styles/13th-age-core-2e.css --watch",
     "compilePacks": "gulp compilePacks",
-    "extractPacks": "gulp extractPacks",
-    "gulp": "gulp"
+    "extractPacks": "gulp extractPacks && python scripts/strip_packs.py",
+    "symlinks:create": "node ./tools/create-symlink.mjs"
   },
-  "browserslist": [
-    "> 1%",
-    "last 2 versions",
-    "not dead",
-    "not ie 11"
-  ],
-  "author": "Asacolips & LegoFed3",
-  "license": "MIT",
+  "author": "Asacolips",
+  "license": "All rights reserved",
   "private": true,
   "devDependencies": {
-    "gulp": "^4.0.2",
+    "@foundryvtt/foundryvtt-cli": "^1.0.3",
+    "gulp": "^5.0.0",
     "gulp-clean": "^0.4.0",
+    "gulp-data": "^1.3.1",
+    "gulp-exec": "^5.0.0",
+    "gulp-shell": "^0.8.0",
     "gulp-yaml": "^2.0.4",
+    "js-yaml": "^4.1.0",
     "merge-stream": "^2.0.0",
-    "nedb": "^1.8.0",
-    "path": "^0.12.7",
-    "through2": "^4.0.2"
+    "sass": "^1.93.2"
+  },
+  "dependencies": {
+    "yargs": "^17.7.2"
   }
 }
