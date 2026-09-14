@@ -1,6 +1,7 @@
-# Theurge (13th Age) Class for the Toolkit13 System
+# Theurge Class for the 13th Age System
 
-This Foundry VTT module adds the community-adapted [Theurge](https://www.13thagesrd.com/classes/3rd-party-classes/theurge-3pp/) class (revision 2.7.0) for 13th Age to the Toolkit13 system. It also serves as an example of how to add new classes to said system, as detailed below.
+This Foundry VTT module adds the community-adapted [Theurge](https://www.13thagesrd.com/classes/3rd-party-classes/theurge-3pp/) class (revision 4.1.12) to the 13th Age system.
+It also serves as an example of how to add new classes to said system, as detailed below.
 
 ## Installation
 Either search for "Theurge (13th Age)" in Foundry's module browser or click `Install Module` and enter the following URL: https://raw.githubusercontent.com/LegoFed3/13a-theurge/main/module.json
@@ -9,11 +10,11 @@ Click `Install` and wait for the installation to complete.
 
 ## Compatibility
 
-Compatible with Foundry VTT v10 and later.
-Requires Toolkit13 (13th Age compatible) system version 1.23.0 or later.
-Tested with Foundry VTT v10.291 and Toolkit13 version 1.25.0.
+Compatible with Foundry VTT v14 and later.
+Requires 13th Age system version 1.41.0 or later.
+Tested with Foundry VTT v14.367 and 13th Age version 1.41.0.
 
-## Adding new Classes and Races/Kin to Toolkit13
+## Adding new Classes and Races/Kin to 13th Age
 
 To work with the system any new content *must* be packaged into dedicated compendiums as described below.
 Furthermore, *new* classes and races *must* be added to the system's internal configuration with a small JavaScript hook, as shown in [scripts/setup.js](https://github.com/LegoFed3/13a-theurge/blob/main/scripts/setup.js).
@@ -44,3 +45,12 @@ Features are always shown on top, and pre-selected unless already present on the
 Class descriptions are included at the top of the related page in the power importer, and should contain an overview of the class, its important stats and its progression table.
 To be correctly matched to the related class a journal's name must coincide exactly with the related class name value stored in `CONFIG.ARCHMAGE.raceList`.
 
+### 2e Material
+
+If a module contains material for both 1e or 2e, or only just 2e material, it *should* ensure the following:
+- 1e and 2e powers and class description should be stored in separate compendiums;
+- Compendiums that include 2e material should include the `2e` substring in their name, while those that don't shouldn't.
+
+So, for example, a module adding new powers to the `fighter` class for both editions should separate them into e.g. `myawesomemodule-fighter` and `myawesomemodule-fighter-2e` compendiums.
+
+This lets the system know to display the material according to the current world's edition rules setting.
