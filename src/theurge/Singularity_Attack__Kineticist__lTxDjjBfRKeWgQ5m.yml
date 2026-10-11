@@ -34,6 +34,7 @@ system:
     label: Cast for Power
     type: String
     value: ''
+  children: []
   crit:
     label: Crit
     type: String

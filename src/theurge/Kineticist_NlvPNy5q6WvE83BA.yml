@@ -67,6 +67,8 @@ system:
     label: Cast for Power
     type: String
     value: ''
+  children:
+  - Compendium.13a-theurge.theurge.Item.lTxDjjBfRKeWgQ5m
   crit:
     label: Crit
     type: String

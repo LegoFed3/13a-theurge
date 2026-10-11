@@ -1,5 +1,8 @@
 # Changelog
 
+## 1.1.1
+- Take advantage of Item Relations from system version 1.42.0.
+
 ## 1.1.0
 - Update class rules to version 4.1.12.
 
